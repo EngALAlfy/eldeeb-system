@@ -1,0 +1,84 @@
+extends ../core/dashboard-layout
+
+block body
+    link(rel='stylesheet', href='/stylesheets/chat-style.css')
+    script.
+        let project_id = "#{project.id}";
+        let username = "#{user.name}";
+        let userphoto = "#{user.photo}";
+        let userid = "#{user.id}";
+        $(document).ready(function () {
+            $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+                localStorage.setItem('activeTab', $(e.target).attr('href'));
+                if ($(e.target).attr('href') === '#chat') {
+                    $("html, body").animate({scrollTop: $("html, body")[0].scrollHeight * 1000}, 1000);
+                }
+            });
+            var activeTab = localStorage.getItem('activeTab');
+            if (activeTab) {
+                $('#projectTab a[href="' + activeTab + '"]').tab('show');
+            }
+            $(document).on('shown.bs.modal', '#removeEmployeeModal', function (event) {
+                var button = $(event.relatedTarget) // Button that triggered the modal
+                var id = button.data('id')
+                var name = button.data('name')
+                var modal = $(this)
+                modal.find('.modal-body').text('Are you sure to remove employee : ' + name)
+                $('#btn-remove-employee').attr('href', "/admin/employees/remove/" + id)
+            });
+
+            $(document).on('shown.bs.modal', '#removeProjectModal', function (event) {
+                var button = $(event.relatedTarget) // Button that triggered the modal
+                var id = button.data('id')
+                var name = button.data('name')
+                var modal = $(this)
+                modal.find('.modal-body').text('Are you sure to remove project : ' + name)
+                $('#btn-remove-project').attr('href', "/admin/projects/remove/" + id)
+            });
+        });
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.js")
+    script(src="/javascripts/pdfThumbnails.js")
+    script(src="/javascripts/project-private-chat.js")
+    script(src="/javascripts/project-chat.js")
+
+    #error
+        if error
+            div.alert.alert-danger
+                p #{error}
+    section#team.col-12.container.pt-5
+        ul#projectTab.nav.nav-tabs.fixed-nav-top.col-md-9.col-lg-10.mt-5.text-center.list-inline.mx-auto.justify-content-center(role='tablist')
+            li.nav-item
+                a#data-tab.nav-link.active(data-toggle='tab' href='#data' role='tab' aria-controls='data' aria-selected='false') Data
+            li.nav-item
+                a#staff-tab.nav-link(data-toggle='tab' href='#staff' role='tab' aria-controls='staff' aria-selected='false') Staff
+            if user.id === project.manager.id
+                li.nav-item
+                    a#private-chat-tab.nav-link(data-toggle='tab' href='#private-chat' role='tab' aria-controls='private-chat' aria-selected='false') Private Chat
+            li.nav-item
+                a#chat-tab.nav-link(data-toggle='tab' href='#chat' role='tab' aria-controls='chat' aria-selected='false') Chat
+
+        div.tab-content#managerTabContent
+            div#data.tab-pane.fade.show.active(role="tabpanel" aria-labelledby="home-tab")
+                include data
+            div#chat.tab-pane.fade.chat.page(role="tabpanel" aria-labelledby="chat-tab")
+                include ../utils/chat-messages-box
+            if user.id === project.manager.id
+                div#private-chat.tab-pane.fade.chat.page(role="tabpanel" aria-labelledby="chat-tab")
+                    include ../utils/private-chat-messages-box
+            div#staff.tab-pane.fade.chat.page(role="tabpanel" aria-labelledby="staff-tab")
+                include project-staff
+
+
+    // Modal
+    #removeEmployeeModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='removeEmployeeModalLabel' aria-hidden='true')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        h5#removeEmployeeModalLabel.modal-title Are you sure ?
+                        button.close(type='button' data-dismiss='modal' aria-label='Close')
+                            span(aria-hidden='true') &times;
+                    .modal-body
+                        | Are you sure to remove employee
+                    .modal-footer
+                        button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+                        a#btn-remove-employee.btn.btn-primary(type='button' , href="#") Remove

@@ -1,0 +1,71 @@
+ul.nav.flex-column
+    li.nav-item
+        a.nav-link(href='/admin/notifications')
+            span(data-feather='bell')
+            | Notifications
+    li.nav-item
+        a.nav-link(href='/admin/todo')
+            span(data-feather='list')
+            | Todo
+    li.nav-item
+        a.nav-link(href='/admin/projects')
+            span(data-feather='briefcase')
+            | Projects
+    li.nav-item
+        a.nav-link(href='/admin/employees')
+            span(data-feather='users')
+            | Employees
+    li.nav-item
+        a.nav-link(href='/admin/suppliers')
+            span(data-feather='truck')
+            | Suppliers
+    li.nav-item
+        a.nav-link(href='/admin/contractors')
+            span(data-feather='rss')
+            | Contractors
+    li.nav-item
+        a.nav-link(href='/admin/admins')
+            span(data-feather='user-check')
+            | System Admins
+    li.nav-item
+        a.nav-link(href='/admin/profile')
+            span(data-feather='user')
+            | Profile
+h6.sidebar-heading.d-flex.justify-content-between.align-items-center.px-3.mt-4.mb-1.text-muted
+        span Manager tools
+ul.nav.flex-column.mb-2
+    if user.roles.includes("add-employee")
+        li.nav-item
+            a.nav-link(href='/admin/employees/add')
+                span(data-feather='plus-circle')
+                | Add Employee
+    if user.roles.includes("add-project")
+        li.nav-item
+            a.nav-link(href='/admin/projects/add')
+                span(data-feather='plus-circle')
+                | Add Project
+    if user.roles.includes("add-contractor")
+        li.nav-item
+            a.nav-link(href='/admin/contractors/add')
+                span(data-feather='plus-circle')
+                | Add Contractor
+    if user.roles.includes("add-supplier")
+        li.nav-item
+            a.nav-link(href='/admin/suppliers/add')
+                span(data-feather='plus-circle')
+                | Add Supplier
+    if user.roles.includes("add-notification")
+        li.nav-item
+            a.nav-link(href='/admin/notifications/add')
+                span(data-feather='plus-circle')
+                | Add notification
+    if user.roles.includes("add-todo")
+        li.nav-item
+            a.nav-link(href='/admin/todo/add')
+                span(data-feather='plus-circle')
+                | Add todo
+    if user.roles.includes("add-admin")
+        li.nav-item
+            a.nav-link(href='/admin/admins/add')
+                span(data-feather='plus-circle')
+                | Add system admin

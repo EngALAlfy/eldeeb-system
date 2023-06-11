@@ -1,0 +1,23 @@
+extends ../core/dashboard-layout
+
+block body
+    #error
+        if error
+            div.alert.alert-danger
+                p #{error}
+    section#team.pb-5.col-12
+        .container
+            h5.section-title.h1 NOTIFICATIONS
+            .row
+                for notification in notifications
+                    .col-md-12.mt-3.row.border.rounded
+                        .pt-2.pb-2.col-4
+                            h3.text-primary #{notification.title}
+                            h5.text-info #{notification.message}
+                        .col-4.text-center
+                            for employee in notification.employees
+                                h6.text-primary #{employee}
+                        .col-4.text-center
+                            for employee in notification.employees_read
+                                h4.text-primary #{employee.id}
+                                h5.text-info #{employee.date}

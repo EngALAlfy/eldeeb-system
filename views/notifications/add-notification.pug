@@ -1,0 +1,75 @@
+extends ../core/dashboard-layout
+
+block body
+    script(src="/javascripts/socket.io.js")
+    link(href="/stylesheets/select2.min.css" rel="stylesheet")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js")
+    script.
+        function removeElement(obj) {
+            obj.parentElement.remove();
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            $('#add-employee').on('click', function () {
+                $('#employees-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-2" src="/images/project.jpg"><input type="hidden" name="employees" value="' + $('#inputEmployees').children("option:selected").val() + '" /><p  class="align-self-center col-8" >' + $('#inputEmployees').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+
+        }, false);
+
+
+    div.text-start.col-lg-10
+        form(class="form-add-employee" method="POST" action="/admin/notifications/processing/add")
+            #error
+                if error
+                    p.text-danger #{error}
+            #sucess
+                if success
+                    div.alert.alert-success
+                        p.text-success notification send successfully.
+
+            - var h1Classes = ['h3', 'mb-3', 'font-weight-normal']
+            h1(class=h1Classes) New Notification
+            .title.form-group
+                label(for="inputTitle" class="control-label") title
+                input(type="text" name="title" id="inputTitle" class=['form-control'] placeholder="title" required)
+            .message.form-group
+                label(for="inputMessage" class="control-label") message
+                input(type="text" name="message" id="inputMessage" class=['form-control'] placeholder="message" required)
+            .employees.form-group
+                label(for="inputEmployees" class="control-label") employees
+                .input-group
+                    select(id="inputEmployees" class=["form-control", "custom-select", "select2"])
+                        option select employee
+                        for employee in employees
+                            - var photo = employee.photo ? employee.photo : 'employee.png';
+                                option(data-img_src=`/profiles-files/${photo}` value=`${employee.id}`) #{employee.name}
+                    div(class="input-group-append")
+                        button#add-employee(class=["btn", "btn-outline-secondary"] type="button") add employee
+                #employees-gallery.mb-1
+            .save
+                - var buttonClass=['btn', 'btn-lg', 'btn-primary', 'mt-3' ,  'btn-block'];
+                button(class=buttonClass type="submit") save
+        - var pClasses=['mt-5', 'mb-3', 'text-muted'];
+            p(class=pClasses) © 2017-2020
+
+        script.
+            function custom_template(obj) {
+                var data = $(obj.element).data();
+                var text = $(obj.element).text();
+                if (data && data['img_src']) {
+                    img_src = data['img_src'];
+                    template = $("<div style='margin-right:0!important;margin-left: 0!important; ' class='row'><img class='col-1 img-fluid' src=\"" + img_src + "\" /><p style=\"font-weight: 700;font-size:14pt;text-align:center;\">" + text + "</p></div>");
+                    return template;
+                }
+            }
+            var options = {
+                //'templateSelection': custom_template,
+                'templateResult': custom_template,
+            }
+            $('.select2').select2(options);
+            //$('.select2-container--default .select2-selection--single').css({'height': '50px'});
+

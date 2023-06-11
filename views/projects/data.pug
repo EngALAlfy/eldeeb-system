@@ -1,0 +1,43 @@
+.container
+    h5.section-title.h1 PROJECT DETAILS
+    .row
+        .col-md-12
+            .image-flip(ontouchstart="this.classList.toggle('hover');")
+                .mainflip
+                    .frontside
+                        .card
+                            .card-body.row
+                                p.col-md-4
+                                    img.img-fluid(src=`/images/project.jpg` alt='card image')
+                                .col-md-8
+                                    h4.card-title Basics
+                                    h5.card-text.ml-3 #{project.name}
+                                    p.card-text.ml-3 id : #{project.id}
+                    .backside
+                        .card
+                            .card-body.mt-4
+                                ul.list-inline
+                                    li.list-inline-item
+                                        a.btn.btn-primary.btn-large.text-xs-center(target='_blank' href='#')
+                                            | Edit
+                                    li.list-inline-item
+                                        a.btn.btn-danger.btn-large.text-xs-center(href='#' data-toggle="modal" data-target="#removeProjectModal" , data-id=`${project.id}` , data-name=`${project.name}`)
+                                            | Remove
+                                    li.list-inline-item
+                                        a.btn.btn-success.btn-large.text-xs-center(target='_blank' href='#')
+                                            | action
+                                    li.list-inline-item
+                                        a.btn.btn-warning.btn-large.text-xs-center(target='_blank' href='#')
+                                            | action
+#removeProjectModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='removeProjectModalLabel' aria-hidden='true')
+    .modal-dialog(role='document')
+        .modal-content
+            .modal-header
+                h5#removeProjectModalLabel.modal-title Are you sure ?
+                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                    span(aria-hidden='true') &times;
+            .modal-body
+                | Are you sure to remove Project
+            .modal-footer
+                button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+                a#btn-remove-project.btn.btn-primary(type='button' , href="#") Remove

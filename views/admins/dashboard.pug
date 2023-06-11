@@ -1,0 +1,7 @@
+extends ../core/dashboard-layout
+
+block body
+    #error
+        if error
+            div.alert.alert-danger
+                p #{error}

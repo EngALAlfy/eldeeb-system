@@ -1,0 +1,219 @@
+style.
+    .search-form {
+        display: none;
+    }
+
+    .result-list {
+        position: absolute;
+        z-index: 2;
+        top: 40px;
+        max-width: 250px;
+    }
+
+
+script(src="/javascripts/client.js")
+script(src="/javascripts/socket.io.js")
+script.
+    const socket = io();
+    function chooseManager(identifier) {
+        var id = $(identifier).data('id');
+        var name = $(identifier).data('name');
+        socket.emit('change-project-manager', {project_id: "#{project.id}", manager_id: id});
+        $('#inputManager').val(name).attr('disabled', true);
+        $('#managers-list').empty();
+    }
+    function addEmployee(identifier) {
+        var id = $(identifier).data('id');
+        var name = $(identifier).data('name');
+        socket.emit('add-project-employee', {project_id: "#{project.id}", employee_id: id});
+        $('#inputEmployee').val(name).attr('disabled', true);
+        $('#employees-list').empty();
+    }
+    function addEngineer(identifier) {
+        var id = $(identifier).data('id');
+        var name = $(identifier).data('name');
+        socket.emit('add-project-engineer', {project_id: "#{project.id}", engineer_id: id});
+        $('#inputEngineer').val(name).attr('disabled', true);
+        $('#engineers-list').empty();
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // manager
+
+        $('#inputManager').on('input', function () {
+            var val = this.value;
+            if (val) {
+                socket.emit('search-project-manager', val);
+            } else {
+                $('#managers-list').empty();
+            }
+        });
+
+
+        socket.on('search-project-manager-result', function (result) {
+            $('#managers-list').empty();
+            for (var manager of result) {
+                $('#managers-list').append('<a href="javascript:void(0)" onclick="chooseManager(this)" data-id="' + manager.id + '" data-name="' + manager.name + '" class="list-group-item list-group-item-action manager-btn"><img class="img-fluid mr-2" width="5%" src="/profiles/' + manager.photo + '">' + manager.name + '</a>');
+            }
+        })
+
+        // engineer
+
+        $('#inputEngineer').on('input', function () {
+            var val = this.value;
+            if (val) {
+                socket.emit('search-project-engineer', val);
+            } else {
+                $('#engineers-list').empty();
+            }
+        });
+
+
+        socket.on('search-project-engineer-result', function (result) {
+            $('#engineers-list').empty();
+            for (var engineer of result) {
+                $('#engineers-list').append('<a href="javascript:void(0)" onclick="addEngineer(this)" data-id="' + engineer.id + '" data-name="' + engineer.name + '" class="list-group-item list-group-item-action manager-btn"><img class="img-fluid mr-2" width="5%" src="/profiles/' + engineer.photo + '">' + engineer.name + '</a>');
+            }
+        })
+
+        // employee
+
+        $('#inputEmployee').on('input', function () {
+            var val = this.value;
+            if (val) {
+                socket.emit('search-project-employee', val);
+            } else {
+                $('#employees-list').empty();
+            }
+        });
+
+
+        socket.on('search-project-employee-result', function (result) {
+            $('#employees-list').empty();
+            for (var employee of result) {
+                $('#employees-list').append('<a href="javascript:void(0)" onclick="addEmployee(this)" data-id="' + employee.id + '" data-name="' + employee.name + '" class="list-group-item list-group-item-action manager-btn"><img class="img-fluid mr-2" width="5%" src="/profiles/' + employee.photo + '">' + employee.name + '</a>');
+            }
+        })
+
+
+        socket.on('refresh', function () {
+            location.reload(true);
+        });
+
+    }, false);
+
+
+script.
+    $(document).ready(function () {
+        $("#change-manager").on('click', function () {
+            $("#manager-form").css('display', 'flex');
+            ;
+        });
+        $("#add-engineer").on('click', function () {
+            $("#engineer-form").css('display', 'flex');
+            ;
+        });
+        $("#add-employee").on('click', function () {
+            $("#employee-form").css('display', 'flex');
+            ;
+        });
+    })
+
+.row
+    .col-12.row.justify-content-center.mt-3
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.col-12.rounded.mb-3
+            a.navbar-brand Project Manager
+            button.navbar-toggler(type='button' data-toggle='collapse' data-target='#managerNavbarSupportedContent' aria-controls='managerNavbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #managerNavbarSupportedContent.collapse.navbar-collapse.justify-content-end
+                ul.navbar-nav
+                    form#manager-form.search-form.form-inline.my-2.my-lg-0
+                        input.form-control.mr-sm-2(type='search' id="inputManager" placeholder='Manager name' aria-label='Manager name')
+                        ul#managers-list.result-list.list-group.mt-3
+                    li.nav-item.mx-2
+                        a#change-manager.nav-link.btn.btn-outline-warning(href='javascript:void(0)') change
+                    li.nav-item
+                        a.nav-link.btn.btn-outline-danger(href='#') previous managers
+        .mx-auto
+            .image-flip(ontouchstart="this.classList.toggle('hover');")
+                .mainflip
+                    .frontside
+                        .card
+                            .card-body.text-center
+                                p
+                                    img.img-fluid(src=`/profiles-files/${manager.photo}` alt='card image')
+                                h4.card-title #{manager.name}
+                                p.card-text #{manager.job}
+                                a.btn.btn-primary.btn-large(href=`/admin/employees/view/${manager.id}`)
+                                    span(data-feather='plus-circle')
+                                    | view more
+    .col-12.mt-5.mx-3
+        hr
+    .col-12.row.justify-content-center.mt-3
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.col-12.rounded.mb-3
+            a.navbar-brand Project Engineers
+            button.navbar-toggler(type='button' data-toggle='collapse' data-target='#engineersNavbarSupportedContent' aria-controls='engineersNavbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #engineersNavbarSupportedContent.collapse.navbar-collapse.justify-content-end
+                ul.navbar-nav
+                    form#engineer-form.search-form.form-inline.my-2.my-lg-0
+                        input.form-control.mr-sm-2(type='search' id="inputEngineer" placeholder='Engineer name' aria-label='Engineer name')
+                        ul#engineers-list.result-list.list-group.mt-3
+
+                    li.nav-item.mx-2
+                        a#add-engineer.nav-link.btn.btn-outline-warning(href='javascript:void(0)') add engineer
+                    li.nav-item
+                        a.nav-link.btn.btn-outline-danger(href='#') add engineer for this project
+        for engineer in engineers
+            .col-md-4.mt-3
+                .image-flip(ontouchstart="this.classList.toggle('hover');")
+                    .mainflip
+                        .frontside
+                            .card
+                                .card-body.text-center
+                                    p
+                                        img.img-fluid(src=`/profiles-files/${engineer.photo}` alt='card image')
+                                    h4.card-title #{engineer.name}
+                                    p.card-text #{engineer.job}
+                                    a.btn.btn-primary.btn-large.mr-2(href=`/admin/employees/view/${engineer.id}`)
+                                        span(data-feather='plus-circle')
+                                        | view more
+                                    a.btn.btn-danger.btn-large(href=`/admin/p/view/${manager.id}`)
+                                        span(data-feather='x-circle')
+                                        | remove
+    .col-12.mt-5.mx-3
+        hr
+    .col-12.row.mt-3.justify-content-center
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.col-12.rounded.mb-3
+            a.navbar-brand Project Employees
+            button.navbar-toggler(type='button' data-toggle='collapse' data-target='#employeesNavbarSupportedContent' aria-controls='employeesNavbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #employeesNavbarSupportedContent.collapse.navbar-collapse.justify-content-end
+                ul.navbar-nav
+                    form#employee-form.search-form.form-inline.my-2.my-lg-0
+                        input.form-control.mr-sm-2(type='search' id="inputEmployee" placeholder='Employee name' aria-label='Employee name')
+                        ul#employees-list.result-list.list-group.mt-3
+
+                    li.nav-item.mx-2
+                        a#add-employee.nav-link.btn.btn-outline-warning(href='javascript:void(0)') add employee
+                    li.nav-item
+                        a.nav-link.btn.btn-outline-danger(href='#') add employee for this project
+
+        for employee in employees
+            .col-md-4.mt-3
+                .image-flip(ontouchstart="this.classList.toggle('hover');")
+                    .mainflip
+                        .frontside
+                            .card
+                                .card-body.text-center
+                                    p
+                                        img.img-fluid(src=`/profiles-files/${employee.photo}` alt='card image')
+                                    h4.card-title #{employee.name}
+                                    p.card-text #{employee.job}
+                                    a.btn.btn-primary.btn-large.mr-2(href=`/admin/employees/view/${employee.id}`)
+                                        span(data-feather='plus-circle')
+                                        | view more
+                                    a.btn.btn-danger.btn-large(href=`/admin/employees/view/${manager.id}`)
+                                        span(data-feather='x-circle')
+                                        | remove

@@ -1,0 +1,126 @@
+extends ../core/dashboard-layout
+
+block body
+    script(src="/javascripts/socket.io.js")
+    script.
+
+        function doProgress(percent, htmlId) {
+            $(htmlId).attr('aria-valuenow', percent).css('width', percent + '%');
+        }
+
+        function uploadFile(id, socket) {
+            doProgress(0, '#progress-' + id);
+            if ($('#input-' + id).prop('files')[0]) {
+                let fileReader = new FileReader();
+                fileReader.onload = function (e) {
+                    doProgress(25, '#progress-' + id);
+                    let filedata = e.target.result;
+                    let filename = $('#input-' + id).prop('files')[0].name;
+                    socket.emit('new-file', {id: id, data: filedata, filename: filename});
+                };
+                fileReader.readAsDataURL($('#input-' + id).prop('files')[0]);
+            }
+        }
+
+        function removeElement(obj) {
+            obj.parentElement.remove();
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const socket = io('/profile-uploads');
+
+            socket.on('success', function (data) {
+                doProgress(100, '#progress-' + data.id);
+                $('#input-' + data.id).val('');
+                $('#' + data.id+'-preview').attr('src' , "/profiles-files/"+data.file);
+                $('#label-' + data.id).text(data.filename);
+                $('#input-' + data.id+ '-url').val(data.file);
+            });
+
+            $('#input-photo').change(function () {
+                uploadFile('photo', socket);
+            });
+
+
+            $('#input-contract-image').change(function () {
+                uploadFile('contract-image', socket);
+            });
+
+            $('#add-item').on('click', function () {
+                $('#items-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><input type="hidden" name="items" value="'+$('#inputItems').val()+'" /><p  class="align-self-center col-5" >' + $('#inputItems').val() + '</p><a style="margin: 0!important;" class="col-1 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-phone').on('click', function () {
+                $('#phones-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><input type="hidden" name="phones" value="'+$('#inputPhones').val()+'" /><p  class="align-self-center col-5" >' + $('#inputPhones').val() + '</p><a style="margin: 0!important;" class="col-1 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+        }, false);
+
+
+    div.text-start.col-lg-10
+        form(class="form-add-employee" method="POST" action="/admin/contractors/processing/add")
+            #error
+                if error
+                    p.text-danger #{error}
+            #sucess
+                if success
+                    div.alert.alert-success
+                        p.text-success contractor added successfully.
+
+            - var h1Classes = ['h3', 'mb-3', 'font-weight-normal']
+            h1(class=h1Classes) New Contractor
+            .code.form-group
+                label(for="inputCode" class="control-label") Code
+                input(type="number" name="code" id="inputCode" class="form-control" placeholder="Code" required autofocus)
+            .name.form-group
+                label(for="inputName" class="control-label") Name
+                input(type="text" name="name" id="inputName" class=['form-control'] placeholder="Name" required)
+            .contract-data.row.form-group
+                label(class=['h6', 'font-weight-normal', 'col-md-12']) Contract Data
+                .custom-control.custom-checkbox.col-5.ml-3.align-self-center
+                    input#inputContract.custom-control-input(type='checkbox' , name="contract")
+                    label.custom-control-label(for='inputContract') Contract
+                .custom-control.custom-checkbox.col-5.align-self-center
+                    input#inputCompleteContract.custom-control-input(type='checkbox' , name="complete_contract")
+                    label.custom-control-label(for='inputCompleteContract') complete contract
+            .contract-image.form-group
+                label(for="input-contract-image" class="control-label") Contract Image
+                .custom-file
+                    label(for="input-contract-image" class="custom-file-label" id="label-contract-image") upload contract image file
+                    input(type="file" id="input-contract-image" class=['custom-file-input', 'form-control', 'mt-3'] placeholder="contract image")
+                    input(type="hidden" id="input-contract-image-url" name="photo")
+                    .progress(style="height: 1px;")
+                        #progress-contract-image.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+                img(class=['img-fluid', 'img-thumbnail' , 'mb-2', 'col-3', 'mt-3'] id="contract-image-preview")
+            .items.form-group
+                label(for="inputName" class="control-label") Items
+                .input-group
+                    input(type="text" id="inputItems" class=['form-control'] placeholder="Items" )
+                    div(class="input-group-append")
+                        button#add-item(class=["btn", "btn-outline-secondary"] type="button") add item
+                #items-gallery.mb-1
+            .phones.form-group
+                label(for="inputPhones" class="control-label") Phones
+                .input-group
+                    input(type="text" id="inputPhones" class=['form-control'] placeholder="Phones" )
+                    div(class="input-group-append")
+                        button#add-phone(class=["btn", "btn-outline-secondary"] type="button") add phone
+                #phones-gallery.mb-1
+            .photo.form-group
+                label(for="input-photo" class="control-label") Photo
+                .custom-file
+                    label(for="input-photo" class="custom-file-label" id="label-photo") upload photo file
+                    input(type="file" id="input-photo" class=['custom-file-input', 'form-control', 'mt-3'] placeholder="Photo")
+                    input(type="hidden" id="input-photo-url" name="photo")
+                    .progress(style="height: 1px;")
+                        #progress-photo.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+                img(class=['img-fluid', 'img-thumbnail' , 'mb-2', 'col-3' , 'mt-3'] id="photo-preview")
+            .save
+                - var buttonClass=['btn', 'btn-lg', 'btn-primary', 'mt-3' ,  'btn-block'];
+                button(class=buttonClass type="submit") save
+        - var pClasses=['mt-5', 'mb-3', 'text-muted'];
+            p(class=pClasses) © 2017-2018

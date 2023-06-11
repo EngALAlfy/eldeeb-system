@@ -1,0 +1,831 @@
+﻿<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+<title>Documentation by "Viavi Webtech-India"</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+</head>
+<body>
+<section id="header">
+  <header> <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+    <h4 id="logo">Status Reward App</h4>
+  </header>
+  <nav id="nav">
+    <ul>
+		<li><a href="#eclipseversion"><i class="fa fa-hand-o-right"></i> Which Android Studio version is needed?</a></li>
+		<li><a href="#importproject"><i class="fa fa-hand-o-right"></i> How to open the project in Android Studio?</a></li>
+		<li><a href="#packagename"><i class="fa fa-hand-o-right"></i> How to change the package name?</a></li>
+		<li><a href="#appname"><i class="fa fa-hand-o-right"></i> How to change app name?</a></li>
+		<li><a href="#admob_privacy_link"><i class="fa fa-hand-o-right"></i> Where to put Admob Privacy Url in Application?</a></li>
+		<li><a href="#serverurl"><i class="fa fa-hand-o-right"></i> Where to put Server Url in Application?</a></li>
+		<li><a href="#rtl"><i class="fa fa-hand-o-right"></i> How to enable/disable RTL?</a></li>
+		<li><a href="#splash"><i class="fa fa-hand-o-right"></i> How to change 'Splash Screen, Application Icon and MoreApp link'?</a></li>
+		<li><a href="#fcm"><i class="fa fa-hand-o-right"></i> How to generate Gmail login & firebase analytic file and replace google-service.json?</a></li>
+		<li><a href="#facebook_login"><i class="fa fa-hand-o-right"></i> How To Setup Facebook Login ?</a></li>
+		<li><a href="#fb_ads"><i class="fa fa-hand-o-right"></i> How to Generate Facebook Ads ID?</a></li>
+		<li><a href="#parse"><i class="fa fa-hand-o-right"></i> How to Change One Signal Notification App Id in Application?</a></li>
+		<li><a href="#parse_icon"><i class="fa fa-hand-o-right"></i> How to Change One Signal Notification App Icon in Application?</a></li>
+		<li><a href="#onesignal_id"><i class="fa fa-hand-o-right"></i> How to Change One Signal Id And Rest Key?</a></li>
+		<li><a href="#onesignal_send_notification"><i class="fa fa-hand-o-right"></i> How to Send Notification From Admin?</a></li>
+		<li><a href="#admob_publisher_id"><i class="fa fa-hand-o-right"></i> Where to put Admob Publisher ID in Application?</a></li>
+		<li><a href="#admob_id"><i class="fa fa-hand-o-right"></i> How to change Ad type and AdMob id?</a></li>
+		<li><a href="#rewarded_video_ad"><i class="fa fa-hand-o-right"></i> How to change Rewarded Video Ad Count?</a></li>
+		<li><a href="#admob_count"><i class="fa fa-hand-o-right"></i> How to change interstitial Ad Count?</a></li>
+		<li><a href="#video_ad_on_off"><i class="fa fa-hand-o-right"></i> How to enable/disable Rewarded Ads(Reward video Ad)?</a></li>
+		<li><a href="#watermark"><i class="fa fa-hand-o-right"></i> How to on/off Watermark?</a></li>
+		<li><a href="#otp_app"><i class="fa fa-hand-o-right"></i> How to Enable/Disable OTP Verification In Application?</a></li>
+		<li><a href="#status_upload"><i class="fa fa-hand-o-right"></i> How to Enable/Disable Upload Status Option In Application?</a></li>
+		<li><a href="#status_size"><i class="fa fa-hand-o-right"></i> How To Change Status Size And Duration?</a></li>
+		<li><a href="#status_point"><i class="fa fa-hand-o-right"></i> How To Change Reward Points ?</a></li>
+		<li><a href="#money_code"><i class="fa fa-hand-o-right"></i> How To Change Currency Code ?</a></li>
+		<li><a href="#redeem_points"><i class="fa fa-hand-o-right"></i> How To Change Minimum Redeem Points(Claim) And Convert to Money?</a></li>
+		<li><a href="#transaction"><i class="fa fa-hand-o-right"></i> How To Manage Transaction ?</a></li>
+		<li><a href="#sign_apk"><i class="fa fa-hand-o-right"></i> How to Generate Signed APK?</a></li>
+		<li><a href="#package_name"><i class="fa fa-hand-o-right"></i> How to Find Package name?</a></li>
+		<li><a href="#security"><i class="fa fa-hand-o-right"></i> How to change package name in admin panel?</a></li>
+		<li><a href="#welcome_screen"><i class="fa fa-hand-o-right"></i> How to remove notice in welcome screen?</a></li>
+		<li><a href="#app_color"><i class="fa fa-hand-o-right"></i> How to change app color?</a></li>
+		<li><a href="#app_image"><i class="fa fa-hand-o-right"></i> How to change app all images?</a></li>
+		<li><a href="#graphics"><i class="fa fa-hand-o-right"></i> Graphics</a></li>
+		<li><a href="#showcase"><i class="fa fa-hand-o-right"></i> App Showcase</a></li>
+		<li><a href="#rating"><i class="fa fa-hand-o-right"></i> Rating</a></li>
+		<li><a href="#credits"><i class="fa fa-hand-o-right"></i> Credits</a></li>
+    </ul>
+  </nav>  
+</section>
+<div id="wrapper">
+  <div id="main">
+    <section id="one">
+      <div class="container">
+        <header class="major">
+          <h2>Status Reward App</h2>
+        </header>
+        <div class="borderTop">
+          <div class="span-6 colborder info prepend-1">
+            <p class="prepend-top"> <strong>Created:- 11 Jun 2020<br>
+              Company:- Viavi Webtech - India<br>
+              Contact:- <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech" style='color:#0e8bcb' target="_blank">Codecanyon Profile</a> </strong> </p>
+          </div>
+          <div class="span-12 last">
+            <p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech" style='color:#0e8bcb' target="_blank">Here</a>. Thanks so much!</p>
+          </div>
+        </div>
+		<div class="section_bdr"></div>	
+
+       <section id="eclipseversion">
+          <div class="container"> <br>
+            <h2>Which Android Studio version is needed?</h2>
+            <p>4.0 Android studio version recommended<br />
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="importproject">
+          <div class="container"> <br>
+            <h2>How to Open The Project in Android Studio?</h2>
+            <ul class="feature_list">
+              <li>Open Android Studio > Open an Existing Android Studio Project > Select Your Project build. gradle file > ok </li>
+              <li>Select Project</li>
+            </ul>
+            <span class="lightbox"><img src="images/import_1.png" alt=""/> </span>
+            <span class="lightbox"><img src="images/import_2.png" alt=""/> </span>            
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="packagename">
+          <div class="container"> <br>
+            <h2>How to change the package name? </h2>
+            <p>You can change it easily from Android Studio. Here are the steps:</p>
+            <ul class="feature_list">
+              <li>In the Project pane, click on the little gear icon.Uncheck/Deselect the Compact Empty Middle Packages option.</li>
+              <li>Your package directory will now be broken up in individual directories.</li>
+              <li>Individually select each directory you want to rename, and: Right-click itSelect RefactorClick on RenameIn the Pop-up dialog.</li>
+              <li>Click on Rename Package instead of Rename Directory Enter the new name and hit RefactorAllow a minute to let Android Studio update all changes.</li>
+              <li>Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId to your Package Name and Sync Gradle, if it hasn't already been updated automatically.</li>
+            </ul>
+            <p style="font-size:18px"><b>Note:</b> When renaming com in Android Studio, it might give a warning. In such case, select Rename All.</p>
+				<span class="lightbox"><img src="images/packagename_1.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_2.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_3.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_4.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_5.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_6.png" alt=""/> </span>            
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+		<section id="appname">
+          <div class="container"> <br>
+            <h2>How to change app name? </h2>
+            <ul class="feature_list">
+              <li>Open Android Studio >Status Reward App > res > values > strings.xml</li>
+              <li>Enter your app name inside <b style="color:#0e8bcb">"app_name"</b> string tag:<br />
+                <code>&lt;string name="app_name"&gt;<b>Status Reward App</b>&lt;/string&gt;</code></li>
+            </ul>
+            <span class="lightbox"><img src="images/app_name.png" alt=""/> </span>            
+          </div>
+        </section>
+        <div class="section_bdr"></div>
+
+       <section id="admob_privacy_link">
+		  <div class="container"> <br>
+			<h2>Where to put Admob Privacy Url in Application?</h2>
+			<ul class="feature_list">
+				<li>Open Android Studio > app > res > values > strings.xml</li>
+				<li>Enter your AdMob App id inside <b>"admob_privacy_link"</b> string tag:<br />
+				<code>&lt;string name="admob_privacy_link"&gt;<b>Your Admob Privacy Url Here</b>&lt;/string&gt;</code></li>
+			</ul>
+			<span class="lightbox"><img src="images/admob_url.png" alt=""/></span>
+		  </div>
+		</section> 
+        <div class="section_bdr"> </div>
+
+		<section id="serverurl">
+			<div class="container"><br>
+			<h2>Where to put Server Url in Application? </h2>
+			<ul class="feature_list">
+			 <li>Select Project > go to Gradle Scripts> Gradle.properties</li>
+			 <li> Open Gradle.properties</li>
+			 <li> now if your Sever is http://www.abc.com so your service url like that <br>
+			 <b>http://abc.com/</b> <br>
+			</ul>
+			<span class="lightbox"><img src="images/change_url.png" alt=""/> </span>
+			</div>
+		</section>
+        <div class="section_bdr"></div>
+
+		<section id="rtl">
+		  <div class="container"> <br>
+			<h2>How to enable/disable RTL(Right To Left)?</h2>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > res > values > strings.xml</li>
+			  <li>Change isRTL to <b>true</b> if you want to enable or <b>false</b> if you want to disable</li>
+			  <li>Change all the text below in your language</li>
+			</ul>
+			<span class="lightbox"> <img src="images/rtl_app.png" alt=""/></span>
+			</ul>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+
+        <section id="splash">
+			<div class="container"> <br>
+			<h2>How to change 'Splash Screen, Application Icon and MoreApp link'? </h2>
+			<b>How To Change Application Icon</b>
+			<ul class="feature_list">
+				<li>Open Android Studio > app > res ></li>
+				<li>Rename your icon with ic_launcher.png and paste in all mipmap folders
+			    <span class="lightbox"> <img src="images/app_icon1.png" alt=""/> </span></li>
+			</ul>
+			<b>How To Change Splash Screen</b>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > res > drawable-nodpi > splash.png</li>
+			  <li>Open Android Studio > app > res > drawable-night > splash.png</li>
+			  <li>Rename your splash screen image  with splash.png and paste in drawable-nodpi and drawable-night folder</li>
+			</ul>
+			<b>How To Change MoreApp Link</b>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > res >values > strings.xml</li>
+			  <li>Enter your Play Store Apps Link inside "play_more_apps" string tag: <br>
+			  <code> &lt;string name="play_more_apps"&gt;https://play.google.com/store/apps/dev?id=7157478532572017100 &lt;/string&gt;</code>
+			  <span class="lightbox"> <img src="images/app_link.png" alt=""/></span></li>
+			</ul>
+		</section>
+		<div class="section_bdr"></div>
+	
+		<section id="fcm">
+		  <div class="container"> <br>
+			<h2>How to generate Gmail login & firebase analytic file and replace google-service.json? </h2>
+			<p> <b>Open <a href="https://developers.google.com/identity/sign-in/android/start-integrating"> https://developers.google.com/identity/sign-in/android/start-integrating </a></b></p>			 
+			<ul class="feature_list">
+			  <li>Create New Project</li>
+				<span class="lightbox"> <img src="images/firebase_google/a.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/b.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/c.png" alt=""/></span>
+				<li>How to generate SHA-1 key</li>
+				<span class="lightbox"> <img src="images/firebase_google/d.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/e.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/f.png" alt=""/></span>
+				
+				<p> <b>Open <a href="https://console.firebase.google.com/"> https://console.firebase.google.com/ </a></b></p>			 
+			
+				<span class="lightbox"> <img src="images/firebase_google/firebase1.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/firebase2.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/firebase3.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/firebase4.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/firebase5.png" alt=""/></span>
+			    <span class="lightbox"> <img src="images/firebase_google/firebase6.png" alt=""/></span>
+			    <span class="lightbox"> <img src="images/firebase_google/firebase7.png" alt=""/></span>
+				<li>Download google-service.json file and replace</li>
+				<span class="lightbox"> <img src="images/firebase_google/google_service.png" alt=""/></span>
+			  <h2>After sign apk follow this</h2>
+			  <li> Now generate SHA1 key with following this command follow this</li>
+			  <li>C:\Program Files\Java\jdk1.8.0\bin>keytool -list -v -keystore E:\your.jks -alias your</li>
+				<span class="lightbox"> <img src="images/firebase_google/g.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/h.png" alt=""/></span>
+			    <span class="lightbox"> <img src="images/firebase_google/i.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/google_service.png" alt=""/></span>
+				
+				<h2>When Uploading Apk to Playstore</h2>
+				
+				<li>Select OPT-OUT or if you select continue then you have upload keystore and get SHA-1 key from google app signing certificate as follows</li>
+				<li>Navigate to the Google Play Console and login</li>
+				<li>Choose the application you are signing</li>
+				<li>Go to Release Management –> App Signing</li>
+				<li>Copy /Download the SHA-1 or SHA-256 certificate fingerprint from the App signing certificate section				
+				<span class="lightbox"> <img src="images/firebase_google/app-signing-opt-out.jpg" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/play_store.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/h.png" alt=""/></span>
+			    <span class="lightbox"> <img src="images/firebase_google/i.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/firebase_google/google_service.png" alt=""/></span></li>
+			  
+			</ul>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+		
+		<section id="facebook_login">
+		  <div class="container"> <br>
+			<h2> How To Setup Facebook Login ?</h2>
+			<b>Open <a href="https://developers.facebook.com/"> https://developers.facebook.com/ </a></b></br>
+			<b>Documentation <a href="https://developers.facebook.com/docs/facebook-login/android"> https://developers.facebook.com/docs/facebook-login/android </a></b></br></br>
+			<ul class="feature_list">
+			<li>Create New App</li>
+				<span class="lightbox"> <img src="images/fb_login/fb_1.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_2.png" alt=""/></span>
+			<li>Select Facebook Login Option</li>	
+				<span class="lightbox"> <img src="images/fb_login/fb_3.png" alt=""/></span>
+			<li>Choose Android</li>
+				<span class="lightbox"> <img src="images/fb_login/fb_4.png" alt=""/></span>
+			<li>Click next</li>	
+				<span class="lightbox"> <img src="images/fb_login/fb_5.png" alt=""/></span>
+			<li>Enter your package name and default disply activity class name</li>
+				<span class="lightbox"> <img src="images/fb_login/fb_6.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_7.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_8.png" alt=""/></span>
+			<li>Create your hash key</li>
+			<li>download openssl for windows<a href="https://code.google.com/archive/p/openssl-for-windows/downloads"> https://code.google.com/archive/p/openssl-for-windows/downloads </a>
+				<span class="lightbox"> <img src="images/fb_login/open_ssl.png" alt=""/></span></li>
+			<li>Debug apk generate hash key</li>
+			<li><b style="color:#ff0000">Note :- use this code to generate hash key for debug apk find from log cat. remove this code after you have generate hash key</b></li>
+				<div class="override_public_block">
+					<span class="color_3">@Override</span><br><br>
+					<span class="color_1">public void</span> onCreate(Bundle savedInstanceState) {<br>
+						 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color_1">super</span>.onCreate(savedInstanceState);<br><br>
+									
+						 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color_1">try</span> {<br>
+							 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PackageInfo info = getPackageManager().getPackageInfo(<br>
+											   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color_2">"{your-package-name}"</span>,                  <span class="color_3">//Insert your own package name.</span>  <br>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PackageManager.GET_SIGNATURES);<br>
+							 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color_1">for</span> (Signature signature : info.signatures) {<br>
+								 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageDigest md = MessageDigest.getInstance("<span class="color_2">SHA</span>");<br>
+								 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;md.update(signature.toByteArray());<br>
+								 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log.d(<span class="color_2">"KeyHash:"</span>, Base64.encodeToString(md.digest(), Base64.DEFAULT));<br>
+								 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+							  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <span class="color_1">catch</span> (NameNotFoundException e) {<br><br>
+									  
+							  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <span class="color_1">catch</span> (NoSuchAlgorithmException e) {<br><br>
+									  
+							  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+							   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+				</div>
+				<span class="lightbox"> <img src="images/fb_login/hash_key_code.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/hash_key_code_1.png" alt=""/></span></li>
+				
+			<li>If you have any trouble creating hash key use this following application generate hash key</li>
+			<a href="https://play.google.com/store/apps/details?id=com.aivarsda.keygentool"> https://play.google.com/store/apps/details?id=com.aivarsda.keygentool </a></br></br>		
+			
+			<li>Sign apk generate hash key</li>
+			<code>keytool -exportcert -alias YOUR_RELEASE_KEY_ALIAS -keystore YOUR_RELEASE_KEY_PATH | openssl sha1 -binary | openssl base64</code></br>
+			<b>Example :- </b><code>keytool -exportcert -alias xxxxx -keystore E:\xxxxx.jks | "C:\Program Files\openssl-0.9.8e_X64\bin\openssl" sha1 -binary | "C:\Program Files\openssl-0.9.8e_X64\bin\openssl" base64</code></br></br>
+			<li>If you have any trouble creating hash key use this following code link</li>
+			<a href="https://developers.facebook.com/docs/facebook-login/android/advanced"> https://developers.facebook.com/docs/facebook-login/android/advanced </a>
+			<li>Using this application generate hash key</li>
+			<a href="https://play.google.com/store/apps/details?id=com.aivarsda.keygentool"> https://play.google.com/store/apps/details?id=com.aivarsda.keygentool </a>
+				<span class="lightbox"> <img src="images/fb_login/fb_9.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/hash_key.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_10.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_11.png" alt=""/></span>
+			<li>Enable single sign on for your app</li>	
+				<span class="lightbox"> <img src="images/fb_login/fb_12.png" alt=""/></span>
+			<li>Copy your facebook_app_id and fb_login_protocol_scheme</li>	
+				<span class="lightbox"> <img src="images/fb_login/fb_13.png" alt=""/></span>
+			<li>Open Android Studio >Status Reward App > res > values > strings.xml</li>	
+			<li>Enter your facebook app id inside <b style="color:#0e8bcb">"facebook_app_id"</b> string tag:<br />
+				<code>&lt;string name="facebook_app_id"&gt;<b>XXXXXXXXXXXXX</b>&lt;/string&gt;</code></li>
+			<li>Enter your fb login protocol scheme inside <b style="color:#0e8bcb">"fb_login_protocol_scheme"</b> string tag:<br />
+				<code>&lt;string name="fb_login_protocol_scheme"&gt;<b>XXXXXXXXXXXXX</b>&lt;/string&gt;</code>
+				<span class="lightbox"> <img src="images/fb_login/fb_id.png" alt=""/></span></li>
+			<li>And click next all step
+				<span class="lightbox"> <img src="images/fb_login/fb_14.png" alt=""/></span></li>	
+			<li>Add your privacy policy link</li>
+			<li>Go to setting > basic
+				<span class="lightbox"> <img src="images/fb_login/fb_15.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_16.png" alt=""/></span></li>
+			<li>Enable in devlopment and choose a category
+				<span class="lightbox"> <img src="images/fb_login/fb_17.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_18.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_19.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/fb_login/fb_20.png" alt=""/></span></li>	
+			</ul>  
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+		
+		<section id="fb_ads">
+          <div class="container"> <br>
+            <h2>How to Generate Facebook Ads ID?</h2>
+		    <p>Open and login in Facebook Developer Website :- 
+            <a style="color:#0e8bcb" href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a> </p>
+			
+			<ul class="feature_list">
+			
+              <li>Click On My Apps</li>
+              <li>Click On Create App</li>
+              <li>If your app already exists then select your app
+              <span class="lightbox"><img src="images/fb_login/fb_1.png" alt=""/> </span></li>
+			  
+			  <li>Enter App Name
+              <span class="lightbox"><img src="images/fb_login/fb_2.png" alt=""/> </span></li>
+			  
+			  <li>Click On Products +</li>
+              <li>Click On Set Up button of Audience Network
+              <span class="lightbox"><img src="images/facebook_ad/fb_1.png" alt=""/> </span>
+              <span class="lightbox"><img src="images/facebook_ad/fb_2.png" alt=""/> </span></li>
+			  
+			  <li>Select your Business Manager Account or Create New One
+			  <span class="lightbox"><img src="images/facebook_ad/fb_3.png" alt=""/> </span></li>
+			  
+			  <li>Enter your app name</li>
+              <li>Click next
+              <span class="lightbox"><img src="images/facebook_ad/fb_4.png" alt=""/> </span></li>
+			  
+			  <li>Click On Add of Android Section
+              <span class="lightbox"><img src="images/facebook_ad/fb_5.png" alt=""/> </span></li>
+			  
+			  <li>Select App is not live</li>
+              <li>Click on Submit
+              <span class="lightbox"><img src="images/facebook_ad/fb_6.png" alt=""/> </span>
+			  
+			  <li>Select the type of ad to create id</li>
+              <li>Write the steps to find that particular ad</li>
+              <li>Click on Create Placement
+              <span class="lightbox"><img src="images/facebook_ad/fb_7.png" alt=""/> </span>
+              <span class="lightbox"><img src="images/facebook_ad/fb_8.png" alt=""/> </span></li>
+			  
+			  <b>Generate Another Ad PlacementID:-</b></br>
+			  <li>Go to side menu</li>
+              <li>Go to Integration > Properties
+              <span class="lightbox"><img src="images/facebook_ad/fb_9.png" alt=""/> </span></li>
+			  
+			  <li>Now select your app
+              <span class="lightbox"><img src="images/facebook_ad/fb_10.png" alt=""/> </span></li>
+			  
+			  <li>Now click on more option and click Create Placement
+              <span class="lightbox"><img src="images/facebook_ad/fb_11.png" alt=""/> </span></li>
+			  
+			  <li>Enter your ad placement name</li>
+              <li>Select your ad type</li>
+              <li>Click Create Placement below
+			  <span class="lightbox"><img src="images/facebook_ad/fb_12.png" alt=""/> </span>
+			  <span class="lightbox"><img src="images/facebook_ad/fb_13.png" alt=""/> </span></li>
+			  
+			  <li>How to find your ad ids
+			  <span class="lightbox"><img src="images/facebook_ad/fb_14.png" alt=""/> </span>
+			  <span class="lightbox"><img src="images/facebook_ad/fb_15.png" alt=""/> </span></li>
+			  
+			  <b>Testing Facebook Ads inside app:- </b>
+			  <li>Go to side menu</li>
+              <li>Click Testing inside Integration menu</li>
+              <li>Turn On Testing enabled</li>
+              <li>Ad your device advertising id to load facebook ads</li>
+              <li>Find Advertising ID -> In your device go to Google Setting > Ads > Your Advertising ID
+              <span class="lightbox"><img src="images/facebook_ad/fb_16.png" alt=""/> </span></li>
+			  <b style="color:#ff0000">Note :- Disable Testing when you upload your app to playstore</b><br/><br/>
+			  <b style="color:#ff0000">Note :- To test facebook ads in your phone you have to either add your phone advertising id or you have to login
+					to facebook app in your phone with the same account in which you have created app</b></br></br>
+					
+			  <b>Review your app after your app is uploaded to playstore:- </b>
+			  <li>Enter your app playstore url and click submit button</li>
+              <li>Tick The Audience Network SDK has been integrated into my app</li>
+              <li>Click on Confirm Manually</li>
+              <li>Add Your Payment Account if you havent added
+              <span class="lightbox"><img src="images/facebook_ad/fb_17.png" alt=""/> </span></li>		
+			  
+            </ul>
+          </div>
+        </section>
+		
+        <div class="section_bdr"></div>
+		
+		<section id="parse">
+		  <div class="container"> <br>
+			<h2>How to Change One Signal Notification App Id in Application? </h2>
+			<p> <b>Get your Google Server API key and project number.</b><br>
+			  <a href='https://documentation.onesignal.com/docs/generate-a-google-server-api-key' style="color:#06F" target="_blank">https://documentation.onesignal.com/docs/generate-a-google-server-api-key</a><br>
+			  </p>
+			  <p><b>How to Change One Signal App Id And Sender Id</b></p>
+			<ul class="feature_list">
+				<li>Open Android Studio > App > build.gradle(Module:app)</li>
+				<li>Enter your Onesignal App id inside<b>"onesignal_app_id"</b> <br />
+				<code> onesignal_app_id =<b>"Your onesignal_app_id"</b></code></li>
+			</ul>
+			<span class="lightbox"><img src="images/notification.png" alt=""/></span>			
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+	
+		<section id="parse_icon">
+		  <div class="container"> <br>
+			<h2>How to Change One Signal Notification App Icon in Application? </h2>
+			<b>How to Change One Signal Notification App Icon</b>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > res </li>
+			  <li>Rename your icon with <b>ic_stat_onesignal_default.png</b> and <b>ic_onesignal_large_icon_default.png</b> paste in drawable-hdpi folders</b> <br />
+			</ul>
+			<span class="lightbox"><img src="images/notification_icon.png" alt=""/></span>
+			<br>
+			</p>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+	
+		<section id="onesignal_id">
+		  <div class="container"> <br>
+			<h2>How to Change One Signal Id And Rest Key?</h2>
+			<span class="lightbox"><img src="images/onesignal_webside_getid.png" alt=""/></span>
+			<span class="lightbox"><img src="images/onesignal_webside.png" alt=""/></span>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+	
+		<section id="onesignal_send_notification">
+		  <div class="container"> <br>
+			<h2>How to Send Notification From Admin?</h2>
+			<ul class="feature_list">
+				<li>Open Admin Panel > Notification</li>
+				<li>Enter title and message which are mandatory</li>
+				<li>Upload Image if you want to show in notificaiton. This is optional</li>
+				<li>If you want to show particular category, video status, image status, gif status and quotes status select one option when click on notification. This is optional</li>
+				<span class="lightbox"> <img src="images/notification_admin1.png" alt=""/></span>
+				<span class="lightbox"> <img src="images/notification_admin2.png" alt=""/></span>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+			
+		 <section id="admob_publisher_id">
+		  <div class="container"> <br>
+			<h2>Where to put Admob Publisher ID in Application?</h2>
+			 <span class="lightbox"><img src="images/webside_admob.png" alt=""/></span>			 
+			 <span class="lightbox"><img src="images/admob_publisherIds.png" alt=""/></span>
+			<div class="lightbox-target" id="admob_publisherIds"> <img src="images/admob_publisherIds.png" alt=""/> <a class="lightbox-close" href="#"></a> </div>
+		  </div>
+		 </section>
+        <div class="section_bdr"></div>
+
+		<section id="admob_id">
+		  <div class="container"> <br>
+			<h2>How to change Ad type and AdMob id?</h2>
+			<span class="lightbox"><img src="images/admob_id_web.png" alt=""/> </span>
+			<span class="lightbox"><img src="images/admob_id_web_1.png" alt=""/> </span>
+		  </div>
+        </section>
+        <div class="section_bdr"></div>
+
+       <section id="rewarded_video_ad">
+		  <div class="container"> <br>
+			<h2>How to change Rewarded Video Ad Count?</h2>
+			<span class="lightbox"><img src="images/reward_ad.png" alt=""/> </span>
+		  </div>
+        </section>
+        <div class="section_bdr"></div>
+
+		<section id="admob_count">
+		  <div class="container"> <br>
+			<h2>How to change interstitial Ad Count?</h2>
+			<span class="lightbox"><img src="images/admob_interstital_ad_clicks.png" alt=""/> </span>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+				
+		<section id="video_ad_on_off">
+		  <div class="container"> <br>
+			<h2>How to enable/disable Rewarded Ads(Reward video Ad)?</h2>
+			<ul class="feature_list">
+				<b style="color:#ff0000;font-size:18px;">Note :- If you want to show rewards status ads on listed activity you have to ENABLE Rewarded Ads Status.</b><br><br>
+				     <ul class="feature_list">
+						<li>Video Status Reward Points
+						<span class="lightbox"><img src="images/video_ad_on_off.png" alt=""/> </span></li>
+						<li>Image Status Reward Points
+						<span class="lightbox"><img src="images/video_ad_on_off_a.png" alt=""/> </span></li>
+						<li>GIF Status Reward Points
+						<span class="lightbox"><img src="images/video_ad_on_off_b.png" alt=""/> </span></li>
+						<li>Text Quotes Status Reward Points
+						<span class="lightbox"><img src="images/video_ad_on_off_c.png" alt=""/> </span></li>
+					 </ul>
+			</ul>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+		
+		<section id="watermark">
+		  <div class="container"> <br>
+			<h2> How to on/off Watermark?</h2>
+			<ul class="feature_list">
+				<li><b>Watermark Image (Recommended resolution: 100x100, 80x80)</b></br></li>
+				<li><b>30 px padding watermark image</b><br>
+				<b style="color:#ff0000;font-size:18px;">Note :- Watermark use only video status</b>
+				<span class="lightbox"><img src="images/watermark.png" alt=""/> </span></li>
+			</ul>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+		
+		<section id="otp_app">
+		  <div class="container"> <br>
+			<h2>How to Enable/Disable OTP Verification In Application ?</h2>
+			<b style="color:#ff0000;font-size:18px;">Note :- If you want to remove otp verification in user registration in application then disable.</b>
+			<span class="lightbox"><img src="images/otp_verifiction.png" alt=""/> </span>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+		
+		<section id="status_upload">
+		  <div class="container"> <br>
+			<h2>How to Enable/Disable Upload Status Option In Application ?</h2>
+			<b style="color:#ff0000;font-size:18px;">Note :- If disable then its hidden from Upload Status Option in Application</b>
+			<span class="lightbox"><img src="images/status_upload_option.png" alt=""/> </span>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+	
+		<section id="status_size">	
+		  <div class="container"> <br>
+			<h2>How To Change Status Size And Duration ?</h2>
+			<ul class="feature_list">
+				<li>All file size in <b style="color:#ff0000;font-size:18px;">MB</b></li>
+				<li>Video duration in <b style="color:#ff0000;font-size:18px;">SECOND</b>
+				<span class="lightbox"><img src="images/status_size_duration.png" alt=""/></span></li>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+	
+		<section id="status_point">	
+		  <div class="container"> <br>
+			<h2>How To Change Reward Points?</h2>
+			<span class="lightbox"><img src="images/point.png" alt=""/></span>
+			<span class="lightbox"><img src="images/point_a.png" alt=""/></span>
+			<span class="lightbox"><img src="images/point_b.png" alt=""/></span>
+			<span class="lightbox"><img src="images/point_c.png" alt=""/></span>
+			<br>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+	
+		<section id="money_code">	
+		  <div class="container"> <br>
+			<h2>How To Change Currency Code ?</h2>
+			<b>How To Change Currency Code</b>
+			<span class="lightbox"><img src="images/Currency_code.png" alt=""/> </span>
+			<br>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+	
+		<section id="redeem_points">	
+		  <div class="container"> <br>
+			<h2>How To Change Minimum Redeem Points(Claim) And Convert to Money ?</h2>
+			<span class="lightbox"><img src="images/cliam_point.png" alt=""/></span>
+			<br>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+	
+		<section id="transaction">	
+		  <div class="container"> <br>
+			<h2>How To Manage Transaction ?</h2>
+			<b>How To Manage Transaction</b></br>
+			<b>transaction paid and reject then send the notification automatically to user. Your transaction has been paid or reject</b>
+			<span class="lightbox"><img src="images/transcaction_history.png" alt=""/></span>
+			<br>
+			</p>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+		
+		<section id="sign_apk">
+          <div class="container"> <br>
+            <h2>How to Generate Signed APK?</h2>
+            <p><b>Create New Keystore</b></p>
+            <ul class="feature_list">
+              <li>Click Build > Generate Signed APK<br>
+              <span class="lightbox"> <img src="images/signapk_1.png" alt=""/> </span>
+              <span class="lightbox"> <img src="images/signapk_2.png" alt=""/> </span></li>
+              <li>Click On Create New or if you are updating app click choose existing<br>
+              <span class="lightbox"><img src="images/signapk_3.png" alt=""/> </span></li>
+              <li>Select Keystore Path</li>
+              <li>Enter Keystore password and confirm password</li>
+              <li>Enter any name for alias</li>
+              <li>Enter key password and confirm password</li>
+              <li>Choose Validity Years</li>
+              <li>Fill rest of the details and click OK<br>
+              <span class="lightbox"><img src="images/signapk_4.png" alt=""/> </span></li>
+              <li>Enter keystore password, alias name and key password and click next<br>
+              <span class="lightbox"><img src="images/signapk_5.png" alt=""/> </span></li>
+              <li>Choose the signed apk destination</li>
+              <li>Tick the signatures</li>
+              <li>Click Finish<br>
+              <span class="lightbox"> <img src="images/signapk_6.png" alt=""/> </span></li>        
+            </ul>
+            <p><b style="color:#ff0000;font-size:18px;">Note :- Please save the keystore and remember the keystore password, alias and key password. If you want to update app in future you have to use this keystore. With new keystore you cannot update your app</b></p>
+          </div>
+        </section>
+		<div class="section_bdr"></div>
+				
+		<section id="package_name">
+		  <div class="container"> <br>
+			<h2>How to Find Package Name?</h2>
+			<span class="lightbox"><img src="images/package_name.png" alt=""/></span>
+			<br>
+			</p>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+		
+		<section id="security">	
+		  <div class="container"> <br>
+			<h2>How to change package name in admin panel ?</h2>
+			<span class="lightbox"><img src="images/security.png" alt=""/></span>
+			<p><b style="color:#ff0000;font-size:18px;">Note :- Package name same in android project otherwise application not work</b></p>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+		
+		<section id="welcome_screen">	
+		  <div class="container"> <br>
+			<h2>How to remove notice in welcome screen ?</h2>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > src > main > res > layout > welcome_slide_one.xml</li>
+			  <code>  android:visibility= <b>"gone"</b></code> to remove this notice
+			  <span class="lightbox"><img src="images/screen_one.png" alt=""/></span>
+			</ul>
+			
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > src > main > res > layout > welcome_slide_two.xml</li>
+			  <code>  android:visibility= <b>"gone"</b></code> to remove this notice
+			  <span class="lightbox"><img src="images/screen_two.png" alt=""/></span>
+			</ul>
+			
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > src > main > res > layout > welcome_slide_three.xml </li>
+			  <code>  android:visibility= <b>"gone"</b></code> to remove this notice 
+			  <span class="lightbox"><img src="images/screen_three.png" alt=""/></span>
+			</ul>
+			
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+		
+		<section id="app_color">	
+		  <div class="container"> <br>
+			<h2>How to change app color ?</h2>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > src > main > res > values > colors.xml</li>
+			  <li>Open Android Studio > app > src > main > res > values-night > colors.xml</li>
+			  <li>values-night > colors.xml all color for night mode in this file</li>
+			  <b style="color:#ff0000;font-size:18px;">Note :- Night mode is support for android 10 in default system settings<b>
+			  <span class="lightbox"><img src="images/app_color.png" alt=""/></span>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+		
+		<section id="app_image">	
+		  <div class="container"> <br>
+			<h2>How to change app images ?</h2>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > src > main > res > drawable </li>
+			  <li>Open Android Studio > app > src > main > res > drawable-night</li>
+			  <li>Open Android Studio > app > src > main > res > drawable-nodpi</li>
+			  <li>drawable-night folder for all image for night mode</li>
+			  <b style="color:#ff0000;font-size:18px;">Note :- Night mode is support for android 10 in default system settings<b>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+
+        <section id="graphics">
+          <div class="container"> <br>
+            <h2>Change App all graphics</h2>
+            <p>You will find all image into /res/drawable-mdpi/,/res/drawable-hdpi/,/res/drawable-xhdpi/ folder. Just create your own graphics and replace those files. Create seperate graphics of different device screen sizes & place them into other drawble folders (drawable-hdpi & drawable-xhdpi) with same file name found at drawable-mdpi folder. Check here for more information: <a style="color:#0e8bcb" href="http://developer.android.com/design/style/devices-displays.html" target="_blank">Devices and Displays</a> & <a style="color:#0e8bcb" href="http://developer.android.com/guide/practices/screens_support.html" target="_blank">Supporting Multiple Screens</a>.</p>
+            <span class="lightbox"><img src="images/Graphics_1.png" alt="" /></span>
+            <span class="lightbox"><img src="images/Graphics_2.png" alt="" /></span>
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="container"> <br>
+            <h2>Application Showcase in PlayStore</h2>
+            <p>Once you will publish your app to Google Play or any other Android store, send us your app link. We will happy to showcase your app into our website & Codecanyon page.</p>
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+        <section id="rating">
+          <div class="container"> <br>
+            <h2>Rating</h2>
+            <p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us from your Codecanyon Menu > Download page.</p>
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="credits">
+          <div class="container"> <br>
+            <h2>Credits</h2>
+            <p>I've used folowing sources into this app:            
+            <ul class="feature_list">
+				<li>Admob</li>
+				<li>Gson</li>
+				<li>Glide</li>
+				<li>Dexter</li>
+				<li>Nachos</li>
+				<li>Facebook</li>
+				<li>EventBus</li>
+				<li>PinViews</li>
+				<li>ExoPlayer</li>
+				<li>LuckyWheel</li>
+				<li>ImagePicker</li>
+				<li>ColorPicker</li>
+				<li>Calligraphy</li>
+				<li>CoreProgress</li>
+				<li>SmoothCheckBox</li>
+				<li>CircleImageView</li>
+				<li>RoundedImageView</li>
+				<li>PageIndicatorView</li>
+				<li>android-async-http</li>
+				<li>Mp4Composer-android</li>
+				<li>Android Image Cropper</li>
+				<li>IRBottomNavigationView</li>
+            </ul>
+            <hr>
+            <p>Once again, thank you so much for purchasing this app. As I said at the beginning, I'd be glad to help you if you have any questions relating to this app. No guarantees, but I'll do my best to assist. If you have a more general question relating to the apps on Codecanyon, you might consider visiting the "FAQ / Support" section and asking your question in the "Comments" section at Codecanyon app detail page.</p>
+            <p class="append-bottom alt large"><strong>Vishal Parmar</strong><br />
+              <strong><a style="color:#0e8bcb" href='http://www.viaviweb.com' target='_blank'>Viavi Webtech-India</a></strong></p>            
+          </div>
+        </section>
+        
+        <!-- Footer -->
+        <section id="footer">
+          <div class="row">		    
+            <ul class="copyright">
+              <li>
+                <h3><span style="color:#0e8bcb;font-style:italic">Vishal</span> <span style="color:#79b800;font-style:italic">Parmar</span></h3>
+              </li>
+              <li><a href="http://www.viaviweb.com" target="_blank"><span style="color:#9f9f9f;font-style:italic">Viavi Webtech</span></a></li>
+            </ul>
+			<div class="social_icon">
+				<ul class="icons">
+				  <li><a href="https://www.facebook.com/viaviweb" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				  <li><a href="https://twitter.com/viaviwebtech" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				  <li><a href="https://www.linkedin.com/in/viaviwebtech" target="_blank" class="icon fa fa-linkedin"><span class="label">Instagram</span></a></li>
+				  <li><a href="https://plus.google.com/+ViaviWebtech" target="_blank" class="icon fa fa-google-plus"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</div>
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<script src="assets/js/main.js"></script> 
+<script>
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+	});
+});
+</script>
+<div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+</html>

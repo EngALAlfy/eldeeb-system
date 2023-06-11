@@ -1,0 +1,46 @@
+extends ../core/dashboard-layout
+
+block body
+        #error
+            if error
+                div.alert.alert-danger
+                    p #{error}
+        section#team.pb-5.col-12
+            .container
+                h5.section-title.h1 OUR PROJECTS
+                .row
+                    for project in projects
+                        .col-xs-12.col-sm-6.col-md-4
+                            .image-flip(ontouchstart="this.classList.toggle('hover');")
+                                .mainflip
+                                    .frontside
+                                        .card
+                                            .card-body.text-center
+                                                p
+                                                    img.img-fluid(src=`/images/project.jpg` alt='card image')
+                                                h4.card-title #{project.name}
+                                                p.card-text project code : #{project.code}
+                                                p.card-text contract code : #{project.contract_code}
+                                                a.btn.btn-primary.btn-large(href=`/admin/projects/view/${project.id}`)
+                                                    span(data-feather='plus-circle')
+                                                    | view more
+                                //
+                                    .backside
+                                        .card
+                                            .card-body.text-center.mt-4
+                                                h4.card-title Sunlimetech
+                                                p.card-text
+                                                    | This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.
+                                                ul.list-inline
+                                                    li.list-inline-item
+                                                        a.social-icon.text-xs-center(target='_blank' href='#')
+                                                            i.fa.fa-facebook
+                                                    li.list-inline-item
+                                                        a.social-icon.text-xs-center(target='_blank' href='#')
+                                                            i.fa.fa-twitter
+                                                    li.list-inline-item
+                                                        a.social-icon.text-xs-center(target='_blank' href='#')
+                                                            i.fa.fa-skype
+                                                    li.list-inline-item
+                                                        a.social-icon.text-xs-center(target='_blank' href='#')
+                                                            i.fa.fa-google

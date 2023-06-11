@@ -1,0 +1,20 @@
+script.
+    $(function () {
+        $('#choosePrivateFile').click(function () {
+            $('#inputPrivateFile').click();
+        });
+
+        $('#inputPrivateFile').on('change' , function () {
+            $('#inputPrivateFileName').val($('#inputPrivateFile').val()).css('display' , 'flex');
+        });
+    });
+
+.mesgs
+    #private_msg_history.msg_history.mb-5
+    .type_msg.fixed-msg-bottom.col-md-9.col-lg-10.mb-5.mt-1
+        input.write_msg.form-control(style="display: none;" type='text' id="inputPrivateFileName" disabled)
+        .input_msg_write.input-group
+            .input-group-prepend
+                button.btn.btn-outline-secondary(type="button" id="choosePrivateFile") choose file
+            input.write_msg.form-control(type='text' id="inputPrivateMessage" placeholder='Type a message')
+            input.d-none(type='file' id='inputPrivateFile')

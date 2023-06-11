@@ -1,0 +1,25 @@
+extends ../core/dashboard-layout
+
+block body
+        #error
+            if error
+                div.alert.alert-danger
+                    p #{error}
+        section#team.pb-5.col-12
+            .container
+                h5.section-title.h1 OUR SUPPLIERS
+                .row
+                    for supplier in suppliers
+                        .col-md-12.mt-3.row.border.rounded
+                                .p-0.col-2.text-center
+                                    //if supplier.photo
+                                        //img.img-fluid.border-0(height=100 src=`/profiles-files/${supplier.photo}`)
+                                    //else
+                                    img.img-fluid.border-0(style="height:100px !important;" src='/images/supplier.png')
+                                .pl-3.pt-2.pr-2.pb-2.border-left.col-8
+                                    h4.text-primary #{supplier.name}
+                                    h5.text-info #{supplier.field}
+                                .col-2.text-center.align-self-center
+                                    a.btn.btn-primary.align-middle.align-self-center(href='#')
+                                        i.fa.fa-user
+                                        |  View More

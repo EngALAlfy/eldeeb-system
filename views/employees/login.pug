@@ -1,0 +1,19 @@
+extends ../core/layout
+block content
+    div.text-center
+        form(class="form-signin" method="POST" action="/admin/login")
+            #error
+                if error
+                    p.text-danger #{error}
+            - var h1Classes = ['h3', 'mb-3', 'font-weight-normal']
+            h1(class=h1Classes) Please sign in
+            email
+                label(for="inputEmail" class="sr-only") Email address
+                input(type="text" name="username" id="inputEmail" class="form-control" placeholder="Email address" required autofocus)
+            password
+                label(for="inputPassword" class="sr-only") Password
+                input(type="password" name="password" id="inputPassword" class=['form-control' , 'mt-3'] placeholder="Password" required)
+            sign-in
+                - var buttonClass=['btn', 'btn-lg', 'btn-primary', 'mt-3' , 'btn-block'];
+                button(class=buttonClass type="submit") Sign in
+

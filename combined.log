@@ -1,0 +1,7052 @@
+{"message":"Listening on port 3000","level":"info","service":"user-service"}
+{"message":"Listening on port 3000","level":"info","service":"user-service"}
+{"message":"Listening on port 3000","level":"info","service":"user-service"}
+{"name":"MongoNetworkError","level":"error","service":"user-service"}
+{"message":"Listening on port 3000","level":"info","service":"user-service"}
+{"name":"MongoNetworkError","level":"error","service":"user-service"}
+{"message":"Listening on port 3000","level":"info","service":"user-service"}
+{"name":"MongoNetworkError","level":"error","service":"user-service"}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-01-30T21:19:56.202Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-01-30T21:19:56.214Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-01-30T21:21:44.424Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-01-30T21:21:44.435Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-02T19:45:57.447Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:06:26.066Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:07:44.287Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:08:14.151Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:08:26.576Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:10:23.588Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:11:57.181Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:12:25.647Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:12:56.880Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:16:23.607Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:16:53.494Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:17:27.993Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:17:38.090Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:17:48.616Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:18:15.660Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:18:23.111Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:20:12.608Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:20:20.331Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:20:46.375Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:20:54.865Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:21:20.629Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:21:33.365Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:22:00.039Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:22:06.116Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:22:23.963Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:22:33.748Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:22:57.810Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:23:10.544Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:23:26.616Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:23:33.060Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:25:28.066Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:25:35.799Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:26:20.650Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:26:31.798Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:27:30.970Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:27:52.679Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:28:18.339Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:28:24.029Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:28:50.105Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:29:00.682Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:29:30.184Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:29:37.729Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:30:00.746Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:30:13.181Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:31:49.417Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:33:30.746Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:34:52.266Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:35:01.970Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:35:30.409Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:35:37.427Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:37:37.430Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:38:51.076Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:40:17.444Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:40:49.241Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:41:16.096Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:41:22.337Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:42:35.008Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:43:44.712Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:43:52.156Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:45:52.162Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:47:00.242Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:47:10.741Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:47:28.753Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:47:36.031Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:49:36.037Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:50:38.519Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:50:47.501Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:52:26.156Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:52:35.925Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:52:58.614Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:53:50.745Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:53:58.454Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:54:24.964Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:54:33.658Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:54:54.067Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:54:57.699Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:55:23.700Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:55:32.897Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:55:51.185Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:56:11.841Z'
+}
+{
+  message: undefined,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:58:11.849Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:58:13.256Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T17:58:35.241Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T18:00:55.726Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T18:01:16.478Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T18:02:32.582Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T18:03:03.516Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:05:37.670Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:05:57.207Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:06:20.064Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:06:51.533Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:07:37.946Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:09:28.478Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:10:38.405Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:16:55.382Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:17:50.407Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:21:20.737Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:26:41.874Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:30:11.761Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-07T19:41:19.381Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:36:10.633Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:37:34.237Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:38:33.332Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:39:19.295Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:39:52.441Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:41:25.325Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:43:03.261Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:44:57.713Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:49:35.227Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:51:38.267Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:52:19.613Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:53:30.966Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:53:46.298Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:57:15.980Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:58:35.019Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T13:59:00.865Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T14:00:57.021Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T16:49:18.514Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:00:26.970Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:00:49.281Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:01:53.535Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:03:20.694Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:04:29.639Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:06:23.279Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:08:02.099Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:20:31.982Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:25:16.939Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:26:21.870Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:26:33.439Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:27:06.023Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:32:16.580Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:36:18.749Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:36:24.662Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:37:23.722Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:39:03.898Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:40:21.049Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:40:47.619Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:42:04.713Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:45:34.977Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:46:29.096Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:46:54.242Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:47:17.384Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-09T17:52:13.359Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:30:43.702Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:32:46.898Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:33:29.125Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:35:06.212Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:36:56.875Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:37:27.142Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:38:04.364Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:40:21.980Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:40:52.248Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:45:07.356Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:45:44.841Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:46:10.657Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:46:31.497Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:46:48.997Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:50:46.148Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:51:54.234Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:53:25.632Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:54:50.333Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:56:07.637Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:57:33.104Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T18:58:19.500Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:00:54.872Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:01:35.053Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:03:47.790Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:04:52.799Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:05:12.977Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:07:26.845Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:10:14.208Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:20:50.338Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:22:14.611Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:24:49.118Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:27:55.303Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:28:33.875Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:29:01.571Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:29:27.218Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:30:33.436Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T19:31:03.506Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:30:36.649Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:31:57.977Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:33:14.510Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:33:51.355Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:35:01.934Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:36:20.776Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:43:17.277Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:43:32.246Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:43:50.015Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:44:51.471Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:49:13.438Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:49:55.351Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:55:31.058Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:56:46.933Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:57:19.314Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:57:49.546Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:58:08.245Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T20:59:44.634Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T21:00:33.651Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T21:01:24.187Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T21:03:05.571Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T21:03:54.562Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T21:10:42.156Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T21:11:33.119Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-11T21:12:09.171Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T10:48:20.297Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T10:50:10.485Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T10:50:36.651Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T10:53:52.395Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T10:58:36.003Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T10:59:47.401Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T11:01:57.401Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T11:03:02.898Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T11:03:31.929Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T15:52:38.951Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T15:56:42.801Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T15:57:26.521Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T15:58:06.507Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T18:29:01.021Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T19:00:03.045Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-12T19:01:23.795Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T07:02:21.972Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:32:04.625Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:32:35.768Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:35:21.598Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:35:49.960Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:41:58.748Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:43:43.635Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:45:44.569Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:52:55.127Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T09:54:37.461Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:06:38.524Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:08:09.106Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:10:52.828Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:12:35.754Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:12:58.278Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:13:36.597Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:14:47.245Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:18:11.947Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:31:56.697Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:32:34.103Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:33:29.403Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:34:18.219Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:36:20.714Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:37:22.111Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:38:11.284Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:38:29.863Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:39:22.737Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:39:51.781Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:40:29.304Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:43:13.701Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:44:04.286Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:48:34.538Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:49:45.172Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:50:45.820Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T10:51:57.049Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:07:21.467Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:08:44.946Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:10:16.564Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:11:58.307Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:13:49.732Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:14:15.566Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:24:44.506Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:25:46.895Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:28:39.878Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:29:24.215Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:31:00.166Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T11:52:56.104Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T12:19:24.887Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T12:53:01.263Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T12:55:02.030Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:07:36.332Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:13:54.942Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:14:19.199Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:15:09.457Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:15:28.594Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:15:37.606Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:16:58.642Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:19:31.252Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:25:45.104Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T13:52:47.988Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-13T14:25:35.850Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T07:50:37.341Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T07:51:26.564Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T08:18:12.976Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T08:18:58.663Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T08:20:26.714Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T08:24:49.315Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T08:46:02.208Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T10:08:57.147Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T10:21:24.738Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T10:45:55.346Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:10:33.792Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:11:45.830Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:12:09.818Z'
+}
+{
+  message: 'error while get project infotrue',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:12:16.274Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:13:40.705Z'
+}
+{
+  message: 'error while get project info 2 MongoError: $in needs an array',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:13:46.644Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:14:34.749Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:15:52.241Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:16:22.788Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:19:16.052Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:25:47.872Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:33:21.876Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:34:12.502Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:36:45.329Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:38:35.612Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:39:16.750Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:41:04.579Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T11:44:11.654Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:00:18.952Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:27:28.051Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:29:22.585Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:37:06.204Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:39:22.957Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:42:43.014Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:46:57.053Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:48:54.014Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:49:58.044Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:50:50.233Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T12:51:40.638Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T13:12:43.773Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T13:15:07.682Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T13:18:54.393Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T13:33:51.638Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T13:36:26.309Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T13:51:32.913Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:05:10.543Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:06:17.739Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:36:32.997Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:45:25.751Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:46:59.284Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:49:07.316Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:51:17.591Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:53:20.918Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:56:52.460Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T14:57:03.165Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:04:00.897Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:04:57.351Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:06:09.549Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:06:36.402Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:06:50.689Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:07:13.824Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:18:11.849Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-15T17:32:34.514Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T07:16:26.867Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T07:16:26.877Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T07:16:26.879Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T07:16:53.478Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T07:19:09.540Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T07:24:41.982Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T08:56:15.129Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T09:15:57.033Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T10:33:12.191Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T10:42:21.322Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T10:42:38.254Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T10:43:14.420Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:06:19.811Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:06:30.792Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:08:49.781Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:09:10.363Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:09:17.663Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:13:22.989Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:30:21.615Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:51:55.306Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:53:09.030Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:53:34.912Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:54:52.931Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T11:55:39.192Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:12:26.983Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/bfb55837-0176-4d76-b188-8942e29f3b18.xml' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/bfb55837-0176-4d76-b188-8942e29f3b18.xml",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:12:49.972Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:14:44.169Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/c3872ea6-bce8-4a6a-a418-b2f21f44fcbb.xml' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/c3872ea6-bce8-4a6a-a418-b2f21f44fcbb.xml",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:14:59.810Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:15:14.452Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/89322f1d-9258-4e70-896e-b6472f06c480.xml' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/89322f1d-9258-4e70-896e-b6472f06c480.xml",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:15:26.401Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:15:49.031Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/a574c6fa-e906-4729-98d0-32964c6c7f13.xml' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/a574c6fa-e906-4729-98d0-32964c6c7f13.xml",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:16:03.713Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:18:52.280Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:24:58.235Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/d13ebd8e-e719-44e0-a690-336c538c5836.jpeg' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/d13ebd8e-e719-44e0-a690-336c538c5836.jpeg",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:27:33.018Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:28:22.237Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/8aa0c5d8-e648-40a4-bcbc-eb7eebed71b5.jpeg' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/8aa0c5d8-e648-40a4-bcbc-eb7eebed71b5.jpeg",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:28:34.359Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:29:31.625Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/f09bfe39-7251-4af1-87b7-d90ba46bcc73.jpeg' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/f09bfe39-7251-4af1-87b7-d90ba46bcc73.jpeg",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:29:43.426Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:30:20.108Z'
+}
+{
+  message: "error while upload chat image , Error: ENOENT: no such file or directory, open '/images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/690ef87d-dad7-4ba1-ad74-bbea24a92b22.jpeg' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/690ef87d-dad7-4ba1-ad74-bbea24a92b22.jpeg",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:30:30.170Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:35:29.867Z'
+}
+{
+  message: "error while upload chat image , Error: EACCES: permission denied, mkdir '/images' id :2150ccf0-4fe5-11ea-8247-5313f7600ab8 path : /images/uploads/chats/2150ccf0-4fe5-11ea-8247-5313f7600ab8/1cf4cd50-233b-4aa5-b0c1-d65cfd6af486.jpeg",
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:35:43.027Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:36:21.905Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T12:37:59.611Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T13:39:39.838Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T13:59:06.852Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:00:05.953Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:02:59.588Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:07:30.062Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:19:18.900Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:21:43.228Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:23:02.512Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:24:27.033Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:24:46.948Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:24:59.751Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:25:07.908Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:25:48.579Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:29:19.936Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:29:53.936Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:32:05.150Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:35:54.838Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:37:18.701Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:38:25.329Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:39:40.643Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:41:51.274Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:43:22.035Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:46:00.992Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:46:49.772Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:50:51.963Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-18T14:53:38.742Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-20T11:45:53.923Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-20T11:49:30.753Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T06:55:04.264Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-22T06:55:04.272Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-22T06:55:04.274Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-22T06:55:04.275Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T06:55:28.103Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T07:00:45.179Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T07:17:39.422Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T07:23:06.690Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T07:23:51.685Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T07:24:54.401Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T07:41:06.631Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T07:47:42.023Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T08:36:09.019Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T08:46:02.016Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T09:27:15.706Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T09:28:29.679Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T09:30:04.794Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-22T10:05:24.189Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:50:38.061Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:50:38.068Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:50:38.071Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:50:57.659Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:51:33.510Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:51:45.043Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:52:56.351Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:54:35.941Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:57:43.212Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T07:58:28.801Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T08:00:26.330Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T08:03:36.710Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T08:04:05.922Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T08:05:05.241Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T08:05:25.627Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:07:44.514Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:08:58.347Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:09:18.559Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:10:03.637Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:15:07.084Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:15:29.095Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:16:13.416Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:16:53.806Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:17:20.770Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:17:51.902Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:19:29.647Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:19:48.946Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:20:59.182Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:21:47.501Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:22:11.165Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:24:35.381Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:24:55.615Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:43:06.314Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:45:02.902Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T10:52:02.938Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T11:10:26.610Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T11:11:13.964Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T11:27:05.333Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-02-26T12:18:36.089Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-04T07:12:06.900Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T07:21:35.479Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:12:13.568Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:12:21.047Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:13:04.258Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:15:36.399Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:17:22.257Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:20:26.977Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:26:04.143Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:28:53.294Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T08:35:29.106Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:03:07.077Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:26:36.734Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:34:12.282Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:36:27.487Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:50:22.017Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:51:38.179Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:52:51.683Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T09:53:40.708Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T10:09:08.436Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T10:09:45.378Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:20:29.307Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:24:46.811Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:37:11.419Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:38:02.185Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:51:29.526Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:52:35.720Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:53:44.446Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:54:25.776Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:54:47.051Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:55:16.658Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:55:31.349Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:56:20.510Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:56:25.115Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:57:24.597Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:57:37.567Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T12:58:09.376Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:00:55.582Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:01:33.569Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:03:38.761Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:06:05.000Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:07:09.198Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:07:49.675Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:10:30.351Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:10:58.134Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-05T13:11:38.682Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T07:31:22.178Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T07:55:11.497Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:04:12.730Z'
+}
+{
+  message: 'error while add project , ValidationError: receive_date: Cast to Date failed for value "30/6/2019" at path "receive_date", dead_line: Cast to Date failed for value "30/6/2020" at path "dead_line", location.lat: Cast to Decimal128 failed for value "" at path "location.lat", location.lon: Cast to Decimal128 failed for value "" at path "location.lon"',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:13:35.252Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:33:45.279Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:44:37.238Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:45:06.344Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:48:05.198Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:49:01.135Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:50:15.968Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:50:43.780Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:51:25.671Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:51:51.604Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:53:43.384Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T08:55:34.055Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:12:51.530Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:25:15.024Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:27:35.502Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:28:39.134Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:30:48.939Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:32:20.003Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:33:16.083Z'
+}
+{
+  message: `error while add new employee ValidationError: phones: Cast to Array failed for value "[ '011', '010', '012' ]" at path "phones"`,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:33:57.183Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:35:14.910Z'
+}
+{
+  message: `error while add new employee ValidationError: phones: Cast to Array failed for value "[ '011,010,012' ]" at path "phones"`,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:35:44.519Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:36:34.184Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:45:03.328Z'
+}
+{
+  message: 'error while add project , ValidationError: location.lat: Cast to Decimal128 failed for value "" at path "location.lat", location.lon: Cast to Decimal128 failed for value "" at path "location.lon"',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-03-08T09:45:24.608Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:00:25.008Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:01:33.092Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:25:57.026Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:27:39.224Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:28:04.985Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:28:24.246Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:29:06.804Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:41:51.369Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:42:31.865Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:55:11.420Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:55:22.877Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:56:54.033Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T10:58:02.150Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T11:13:18.333Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T11:32:22.720Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T11:37:42.551Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T12:11:26.318Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T12:11:59.924Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T12:32:44.177Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T13:19:48.525Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T13:21:19.796Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T13:23:05.150Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T13:23:45.817Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T13:24:47.745Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T13:26:58.031Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-08T13:27:04.904Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T08:09:59.681Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T08:35:50.426Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T08:43:37.407Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T08:44:00.405Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:02:20.397Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:02:31.852Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:02:56.221Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:06:16.629Z'
+}
+{
+  message: 'error while add new employee ValidationError: contract: Cast to Boolean failed for value "on" at path "contract", receipt.is: Cast to Boolean failed for value "on" at path "receipt.is"',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:07:31.772Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:08:52.391Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:16:44.655Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T11:17:46.721Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-14T12:26:59.760Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-24T07:27:08.624Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-03-24T07:27:08.633Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-03-24T07:27:08.636Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-03-24T07:27:25.725Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-27T14:01:29.895Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-27T14:30:23.191Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T07:01:57.872Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T10:16:32.279Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T10:53:18.601Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T10:57:42.589Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T11:11:45.642Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T11:16:38.527Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T11:27:11.450Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T11:28:05.660Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-28T11:29:09.528Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T10:54:12.735Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-04-29T10:54:12.765Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T10:54:28.972Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T10:58:34.741Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:00:04.060Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:04:59.460Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:07:50.860Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:09:15.170Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:10:46.074Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:11:13.066Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:11:28.975Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:13:18.198Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:14:15.930Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:14:37.754Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:16:40.777Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:17:04.756Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:17:48.809Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:23:36.467Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:51:09.834Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:51:42.892Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:55:03.523Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T11:55:52.222Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T12:19:42.536Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T12:19:52.666Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T12:21:41.777Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T12:23:15.156Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T12:24:46.178Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T12:25:14.511Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-29T12:26:07.943Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:19:08.776Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:19:08.792Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:19:23.684Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:26:36.939Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:29:42.885Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:31:35.907Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:33:36.281Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:40:33.344Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:40:50.856Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:41:49.769Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:42:16.213Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:42:38.077Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:45:15.738Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:46:46.959Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:48:23.789Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:49:04.707Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:49:41.151Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T07:50:56.604Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T08:06:51.359Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T08:07:12.259Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T09:22:59.556Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T10:51:42.768Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T10:52:57.202Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T10:53:36.315Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T10:54:25.741Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T10:54:58.140Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T10:56:39.506Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-04-30T11:35:10.912Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-05T09:40:38.370Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-05T09:42:31.602Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-05T09:42:55.035Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-06T07:43:16.080Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-06T08:16:46.601Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-06T08:55:45.801Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-06T08:58:39.172Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-06T09:01:41.707Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T07:48:48.034Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T08:01:48.842Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T08:46:49.785Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T09:43:08.788Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T09:56:46.972Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T10:04:20.737Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T10:05:34.946Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-07T10:10:06.573Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-08T15:06:31.867Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-09T14:27:19.899Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-09T14:50:42.363Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-11T20:06:55.114Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:04:30.605Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:06:33.410Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:07:17.720Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:08:36.973Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:09:16.958Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:09:50.871Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:11:27.377Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:11:33.891Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T16:14:15.720Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T17:33:45.478Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T17:39:37.755Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T17:39:55.200Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T17:40:47.927Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T17:41:25.257Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-12T18:15:21.485Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-16T17:45:17.266Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-16T17:55:45.421Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T07:13:59.705Z'
+}
+{
+  message: 'error while add new contractor ValidationError: items: Cast to Array failed for value "[\n' +
+    "  { id: '32e6d9f0-9810-11ea-a9d3-1713c64bf9eb', name: 'eee' },\n" +
+    "  { id: '32e6d9f1-9810-11ea-a9d3-1713c64bf9eb', name: 'eee' },\n" +
+    "  { id: '32e6d9f2-9810-11ea-a9d3-1713c64bf9eb', name: 'eee' }\n" +
+    `]" at path "items", phones: Cast to Array failed for value "[ { phone: '012' }, { phone: '012' }, { phone: '012' } ]" at path "phones"`,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-05-17T07:29:52.919Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T07:31:02.427Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T07:38:24.973Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T07:48:40.887Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:04:18.526Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:07:04.429Z'
+}
+{
+  message: `error while add project , ValidationError: contractors: Cast to Array failed for value "[ { id: '69111f90-9810-11ea-ba3d-8db72bfd812c' } ]" at path "contractors"`,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:10:14.056Z'
+}
+{
+  message: `error while add project , ValidationError: contractors: Cast to Array failed for value "[ { id: '69111f90-9810-11ea-ba3d-8db72bfd812c' } ]" at path "contractors"`,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:13:10.931Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:14:43.480Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:18:38.865Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:19:18.917Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:21:02.759Z'
+}
+{
+  message: 'error while add project , ValidationError: suppliers: Cast to Array failed for value "[\n' +
+    "  { id: '1b6c4300-9810-11ea-a9d3-1713c64bf9eb' },\n" +
+    "  { id: '078ae7b0-8eb5-11ea-87af-255d1c306f37' }\n" +
+    ']" at path "suppliers"',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:26:58.189Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:28:23.290Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:35:06.982Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:36:43.759Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:40:41.248Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:52:42.932Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:53:41.802Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:54:46.252Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:58:06.381Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:58:29.795Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T08:59:21.226Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:01:42.093Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:02:14.009Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:02:26.066Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:03:50.775Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:05:29.686Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:05:46.628Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:06:09.923Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:06:47.308Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:09:16.892Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:41:37.156Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:46:32.352Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:48:54.849Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T09:55:33.749Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T10:34:33.649Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T10:39:11.251Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:08:08.702Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:32:10.984Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:32:18.861Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:34:05.066Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:37:26.906Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:40:23.887Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:41:30.842Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:42:58.498Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:46:21.928Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:46:34.509Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-17T12:46:50.118Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T07:29:49.521Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:19:08.307Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:30:06.087Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:33:13.153Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:35:34.547Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:53:55.576Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:54:02.659Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:55:25.662Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:56:17.527Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:58:10.754Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:58:43.659Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T08:59:26.621Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T09:31:30.386Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T13:13:37.013Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T18:14:45.427Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T18:21:38.215Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T18:21:45.703Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T18:21:55.243Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T18:23:46.711Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:14:21.116Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:17:32.451Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:22:20.326Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:25:06.500Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:26:05.175Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:26:25.301Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:26:40.738Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:27:17.168Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:28:05.655Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:28:22.070Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:28:34.461Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:29:06.303Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:29:28.568Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:29:52.117Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:30:59.110Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:31:16.499Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:54:55.262Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T19:55:19.295Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:36:32.726Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:40:07.682Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:40:55.341Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:41:47.154Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:42:36.491Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:43:38.677Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:43:45.502Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:44:22.101Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:46:02.777Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:46:39.002Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:48:39.690Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:50:46.207Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:52:57.905Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:53:13.040Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T21:53:23.357Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T22:00:53.511Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T22:03:02.331Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T22:15:45.523Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T22:17:22.298Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T22:22:50.862Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T22:26:44.038Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-18T22:26:48.993Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T07:19:42.180Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-05-19T07:19:42.189Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T07:21:39.890Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T07:57:10.666Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:11:10.134Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:44:52.748Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:50:40.420Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:51:24.921Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:52:12.057Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:53:05.474Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:54:52.277Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:55:31.539Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T08:57:24.730Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-05-19T09:06:34.407Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-02T06:10:56.231Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-02T09:49:54.303Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:11:24.508Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:32:32.833Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:37:23.227Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:44:44.860Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:45:54.780Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:47:07.330Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:47:15.886Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:47:34.561Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:54:30.295Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:54:45.445Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T07:55:17.861Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T08:16:38.676Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T08:21:05.584Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-03T08:46:28.150Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-04T08:12:28.952Z'
+}
+{
+  message: 'error while add project , ValidationError: drawings: Cast to Array failed for value "[\n' +
+    '  {\n' +
+    "    url: '21cddc9f-e788-43a8-b4bf-8a3a10b81e4c.jpeg',\n" +
+    "    id: '3ba63110-a63b-11ea-8d25-6b0e71dd16fe'\n" +
+    '  },\n' +
+    '  {\n' +
+    "    url: '21cddc9f-e788-43a8-b4bf-8a3a10b81e4c.jpeg',\n" +
+    "    id: '3ba63111-a63b-11ea-8d25-6b0e71dd16fe'\n" +
+    '  },\n' +
+    '  {\n' +
+    "    url: '281d3345-4fdd-4349-87e5-a417c79f0ac5.png',\n" +
+    "    id: '3ba63112-a63b-11ea-8d25-6b0e71dd16fe'\n" +
+    '  },\n' +
+    '  {\n' +
+    "    url: '281d3345-4fdd-4349-87e5-a417c79f0ac5.png',\n" +
+    "    id: '3ba63113-a63b-11ea-8d25-6b0e71dd16fe'\n" +
+    '  },\n' +
+    '  {\n' +
+    "    url: '1d940df2-ee50-4a5e-93f5-039e8c3e66dd.png',\n" +
+    "    id: '3ba63114-a63b-11ea-8d25-6b0e71dd16fe'\n" +
+    '  },\n' +
+    '  {\n' +
+    "    url: '1d940df2-ee50-4a5e-93f5-039e8c3e66dd.png',\n" +
+    "    id: '3ba63115-a63b-11ea-8d25-6b0e71dd16fe'\n" +
+    '  }\n' +
+    ']" at path "drawings"',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-06-04T08:13:12.241Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-04T08:14:11.136Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T07:36:01.453Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T08:45:46.343Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T08:59:50.517Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:04:18.517Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:04:36.970Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:05:56.044Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:06:59.008Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:07:54.493Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:09:42.551Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:10:08.258Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:10:13.740Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:13:39.209Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:18:15.154Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:23:33.481Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:24:23.382Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:27:26.555Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:32:58.930Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:35:14.984Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:38:39.722Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:43:59.485Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:56:03.850Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:58:29.439Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T09:58:50.409Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:04:28.415Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:05:23.890Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:07:15.703Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:08:14.089Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:08:35.580Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:08:52.148Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:09:12.010Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:09:27.391Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:09:44.488Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:10:09.831Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:10:36.082Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:11:00.289Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:13:55.405Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:14:24.591Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:14:53.923Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T10:15:05.132Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-14T14:16:49.635Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-20T10:17:48.869Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T10:53:15.749Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T12:04:29.091Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T12:51:00.468Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T17:45:17.991Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T17:51:56.180Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T18:47:13.000Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T18:48:28.774Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-23T18:58:59.868Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T09:22:56.643Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T09:52:02.165Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T09:58:12.747Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T09:59:17.865Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T10:05:01.612Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T10:41:44.521Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T11:01:01.795Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T11:23:29.753Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T12:08:51.867Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T12:57:15.590Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T13:15:10.835Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T13:40:21.644Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T14:49:30.129Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T14:58:12.152Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:27:31.395Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:34:55.838Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:35:28.130Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:37:05.028Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:38:22.727Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:38:41.534Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:39:10.996Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:39:37.565Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:39:44.965Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:40:56.021Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:41:19.865Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T17:41:39.317Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T18:18:11.079Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T18:25:47.448Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T19:08:18.280Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-24T19:14:31.938Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:18:18.247Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:19:19.370Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:20:40.290Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:21:44.775Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:22:28.888Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:23:09.512Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:23:32.122Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:24:53.914Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:27:00.751Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:27:35.674Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:28:10.360Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T08:28:35.200Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T09:18:27.481Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T20:28:12.660Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T20:50:37.633Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T20:51:25.703Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-25T20:51:30.144Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-26T07:34:03.598Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-06-26T07:34:03.610Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-26T15:22:56.384Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-26T17:33:40.339Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-26T19:24:16.230Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-26T20:56:44.538Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T10:35:17.974Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T10:39:58.954Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T13:27:58.847Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T13:29:03.340Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T13:30:15.426Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T13:51:02.839Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T13:51:36.693Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T13:51:59.522Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T14:03:28.575Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T14:05:22.418Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-27T14:06:36.251Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-28T13:37:40.982Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-28T13:38:26.255Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-28T13:39:24.033Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-28T13:40:32.027Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-28T13:42:00.051Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-28T13:44:41.717Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-28T21:03:39.370Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-30T20:22:43.873Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-06-30T20:22:43.889Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-06-30T20:23:42.704Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:20:58.847Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:20:58.857Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:23:44.397Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:27:25.866Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:27:41.545Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:27:59.744Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:28:13.901Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:29:16.393Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:29:32.720Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:29:52.287Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:30:07.664Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:31:10.085Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:40:41.252Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:42:58.113Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T14:44:23.296Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T15:03:08.387Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T15:03:26.120Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T15:03:31.709Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T18:00:07.206Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-07-05T18:00:07.234Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T18:00:18.258Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-05T20:31:11.714Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T07:07:35.669Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T07:12:39.945Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T08:22:41.431Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T16:55:43.972Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T16:59:48.621Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T17:17:13.202Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T17:27:46.715Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T17:29:11.542Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-06T17:29:42.149Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:02:54.341Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:07:51.271Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:18:55.402Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:22:12.000Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:22:43.076Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:24:23.881Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:24:43.805Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:26:45.364Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T09:29:56.138Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T17:57:04.730Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-07-07T17:57:04.751Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-07T17:57:14.406Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T19:13:44.327Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T19:52:52.335Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T21:41:28.712Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T21:46:47.500Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T21:50:12.922Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T21:51:45.154Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T21:52:29.761Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T21:58:43.283Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:00:04.620Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:00:19.753Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:03:03.625Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:04:47.709Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:05:40.399Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:08:19.312Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:08:25.362Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:12:00.813Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:13:30.082Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:17:48.722Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:18:20.694Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:18:32.635Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:27:58.673Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:28:40.747Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:30:01.273Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:32:05.420Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:33:56.518Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-09T22:34:06.753Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-10T16:54:50.155Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-10T16:56:17.233Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T16:58:50.848Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:03:13.699Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:03:30.154Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:22:12.306Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:22:23.107Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:25:10.726Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:26:43.753Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:27:16.440Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:29:43.498Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:30:01.275Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:33:38.075Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:34:06.152Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T17:35:06.818Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T19:35:34.499Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T19:39:31.760Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-12T19:42:10.855Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-13T07:28:42.661Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-13T09:02:07.592Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-13T19:41:42.710Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-07-13T19:41:42.723Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-13T19:42:38.198Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T15:33:11.670Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T15:36:42.350Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T15:45:01.788Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T17:30:53.061Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:44:19.199Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:45:06.887Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:45:50.195Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:46:14.642Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:47:25.579Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:47:50.668Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:48:06.798Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:48:19.840Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:48:34.213Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:48:45.965Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:48:59.655Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:50:49.404Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:51:20.627Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:51:43.440Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:52:07.858Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:52:36.897Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:53:35.857Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:58:14.876Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-27T19:59:31.697Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-28T08:31:38.822Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-28T20:10:02.164Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:42:29.293Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:45:28.633Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:45:44.230Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:50:25.819Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:52:29.548Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:57:43.269Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:58:05.481Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T20:59:27.091Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:06:14.550Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:06:52.665Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:09:24.865Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:09:35.470Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:10:09.782Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:11:42.976Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:17:05.013Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-29T22:20:23.455Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-30T17:28:03.405Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-30T23:08:03.964Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-30T23:25:42.228Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-30T23:28:51.285Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-30T23:31:09.065Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-30T23:32:13.886Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-30T23:32:52.858Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T00:31:22.482Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T06:49:04.261Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T08:10:51.703Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T11:37:14.312Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:17:03.577Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:18:45.687Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:19:45.775Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:20:55.101Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:21:43.871Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:22:57.787Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:23:39.857Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:24:22.216Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:24:38.570Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:25:16.980Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:25:22.321Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:25:40.998Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:26:43.311Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:27:23.430Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:29:57.421Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:49:38.222Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:52:36.526Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T12:53:24.512Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T19:32:31.963Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-07-31T19:32:31.974Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T19:32:52.147Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T19:35:37.354Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T20:03:41.661Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-07-31T20:27:13.735Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T12:22:11.215Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T20:02:47.104Z'
+}
+{
+  name: 'MongoNetworkError',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2020-08-01T20:02:47.115Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T20:02:57.536Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T22:48:36.176Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T22:48:43.894Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T22:53:24.699Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T22:57:16.360Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T23:01:06.560Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T23:28:15.529Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T23:28:42.120Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-01T23:30:59.667Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-02T15:51:39.748Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-03T23:59:03.895Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T00:00:58.615Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T00:08:35.162Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T18:17:38.116Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T18:43:27.402Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T18:46:53.361Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T18:50:02.238Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T18:53:18.702Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T19:46:20.980Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T20:01:58.676Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-04T20:12:11.175Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T07:27:36.473Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T08:01:59.542Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T08:03:53.624Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T08:06:02.224Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T09:30:00.286Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T20:02:13.920Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T20:15:19.859Z'
+}

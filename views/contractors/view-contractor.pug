@@ -1,0 +1,82 @@
+extends ../core/dashboard-layout
+
+block body
+    script.
+        $(document).ready(function () {
+            $(document).on('shown.bs.modal', '#removeModal', function (event) {
+                var button = $(event.relatedTarget) // Button that triggered the modal
+                var id = button.data('id')
+                var name = button.data('name')
+                var modal = $(this)
+                modal.find('.modal-body').text('Are you sure to remove employee : ' + name)
+                $('#btn-remove').attr('href', "/admin/employees/remove/" + id)
+            });
+        });
+    #error
+        if error
+            div.alert.alert-danger
+                p #{error}
+    section#team.pb-5.col-12
+        .container
+            h5.section-title.h1 EMPLOYEE DETAILS
+            .row
+                .col-md-12
+                    .image-flip(ontouchstart="this.classList.toggle('hover');")
+                        .mainflip
+                            .frontside
+                                .card
+                                    .card-body.row
+                                        p.col-md-4
+                                            img.img-fluid(src=`/images/uploads/${employee.photo}` alt='card image')
+                                        .col-md-8
+                                            h4.card-title Basics
+                                            h5.card-text.ml-3 #{employee.name}
+                                            p.card-text.ml-3 id : #{employee.id}
+                                            p.card-text.ml-3 code : #{employee.code}
+                                            p.card-text.ml-3 job : #{employee.job}
+                                            p.card-text.ml-3 job date : #{employee.job_date}
+                                            p.card-text.ml-3 qualification : #{employee.qualification}
+                                            p.card-text.ml-3 qualification date : #{employee.qualification_date}
+                                            p.card-text.ml-3 birth date : #{employee.birthdate}
+                            .backside
+                                .card
+                                    .card-body.mt-4
+                                        h4.card-title Contact
+                                        p.card-text.ml-3 email : #{employee.email}
+                                        for phone in employee.phones
+                                            p.card-text.ml-3 phone : #{phone}
+                            .backside
+                                .card
+                                    .card-body.mt-4
+                                        h4.card-title Contract
+                                        p.card-text.ml-3 contract : #{employee.contract}
+                                        p.card-text.ml-3 Receipt : #{employee.receipt}
+                            .backside
+                                .card
+                                    .card-body.mt-4
+                                        ul.list-inline
+                                            li.list-inline-item
+                                                a.btn.btn-primary.btn-large.text-xs-center(target='_blank' href='#')
+                                                    | Edit
+                                            li.list-inline-item
+                                                a.btn.btn-danger.btn-large.text-xs-center(href='#' data-toggle="modal" data-target="#removeModal" , data-id=`${employee.id}` , data-name=`${employee.name}`)
+                                                    | Remove
+                                            li.list-inline-item
+                                                a.btn.btn-success.btn-large.text-xs-center(target='_blank' href='#')
+                                                    | action
+                                            li.list-inline-item
+                                                a.btn.btn-warning.btn-large.text-xs-center(target='_blank' href='#')
+                                                    | action
+    // Modal
+    #removeModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='removeModalLabel' aria-hidden='true')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        h5#removeModalLabel.modal-title Are you sure ?
+                        button.close(type='button' data-dismiss='modal' aria-label='Close')
+                            span(aria-hidden='true') &times;
+                    .modal-body
+                        | Are you sure to remove employee
+                    .modal-footer
+                        button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+                        a#btn-remove.btn.btn-primary(type='button' , href="#") Remove

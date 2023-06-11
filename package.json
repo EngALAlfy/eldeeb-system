@@ -1,0 +1,36 @@
+{
+  "name": "eldeeb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0",
+    "fs-extra": "^8.1.0",
+    "http-errors": "~1.6.3",
+    "jimp": "^0.9.3",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.9.2",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "password-generator": "^2.2.3",
+    "pug": "^2.0.4",
+    "request": "^2.88.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "latest",
+    "socketio-file-upload": "^0.7.0",
+    "twilio": "^3.48.1",
+    "uuid": "^3.4.0",
+    "winston": "^3.2.1"
+  }
+}

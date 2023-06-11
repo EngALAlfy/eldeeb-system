@@ -1,0 +1,113 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+const app = require('../app');
+const logger = require('../utils/error-logger');
+const http = require('http');
+const mongoose = require('mongoose');
+
+//Set up default mongoose connection
+const mongoDB = 'mongodb://127.0.0.1/test1';
+mongoose.connect(mongoDB, { useNewUrlParser: true });
+
+//Get the default connection
+const db = mongoose.connection;
+
+//Bind connection to error event (to get notification of connection errors)
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+const port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+/**
+ * Create HTTP server.
+ */
+
+const server = http.createServer(app);
+const io = require('socket.io')(server);
+const socketIOFileUpload = require('socketio-file-upload');
+app.use(socketIOFileUpload.router);
+
+require('../routes/socketIO')(io);
+require('../routes/uploadSocketIO')(io , socketIOFileUpload);
+require('../routes/projectUploadSocketIO')(io);
+require('../routes/profileUploadSocketIO')(io);
+require('../api/chat')(io);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+      logger.error(error);
+  }
+
+  var bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      logger.error(error);
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  logger.info('Listening on ' + bind);
+}
+
+

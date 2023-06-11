@@ -1,0 +1,27 @@
+extends ../core/dashboard-layout
+
+block body
+    #error
+        if error
+            div.alert.alert-danger
+                p #{error}
+    section#team.pb-5.col-12
+        .container
+            h5.section-title.h1 SYS ADMINS
+            .row
+                for admin in admins
+                    .col-md-12.mt-3.row.border.rounded
+                        .p-0.col-2.text-center
+                            - var photo = admin.photo ? '/profiles-files/'+admin.photo : '/images/employee.png';
+                                img.img-fluid.border-0(height=100 src=`${photo}`)
+                        .pl-3.pt-2.pr-2.pb-2.border-left.col-8
+                            h4.text-primary #{admin.name}
+                            h5.text-info #{admin.id}
+
+                        .col-2.text-center.align-self-center
+                            a.btn.btn-primary.align-middle.align-self-center(href='#')
+                                i.fa.fa-user
+                                |  View More
+                            a.btn.btn-danger.mt-2.align-middle.align-self-center(href='#')
+                                i.fa.fa-remove
+                                |  Remove

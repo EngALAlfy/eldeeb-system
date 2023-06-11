@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "eldeeb",
+      "script": "bin/www",
+      "instances": 2,
+      "exec_mode": "cluster",
+      "node_args": "--max_old_space_size=4192",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3000",
+        "TZ": "Africa/Cairo"
+      }
+    }
+  ]
+}

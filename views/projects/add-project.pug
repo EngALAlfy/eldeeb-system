@@ -1,0 +1,467 @@
+extends ../core/dashboard-layout
+
+block body
+    style.
+        .field-icon {
+            float: right;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: -25px;
+            position: relative;
+            z-index: 2;
+        }
+    script(src="/javascripts/client.js")
+    script(src="/javascripts/socket.io.js")
+    link(href="/stylesheets/select2.min.css" rel="stylesheet")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js")
+
+    script.
+        function removeElement(obj) {
+            obj.parentElement.remove();
+        }
+
+        function doProgress(percent, htmlId) {
+            $(htmlId).attr('aria-valuenow', percent).css('width', percent + '%');
+        }
+
+        function uploadFile(id , socket) {
+            doProgress(0, '#progress-'+id);
+            if ($('#input-'+id).prop('files')[0]) {
+                let fileReader = new FileReader();
+                fileReader.onload = function (e) {
+                    doProgress(25, '#progress-'+id);
+                    let filedata = e.target.result;
+                    let filename = $('#input-'+id).prop('files')[0].name;
+                    socket.emit('new-file', {id: id, data: filedata , filename:filename});
+                };
+                fileReader.readAsDataURL($('#input-'+id).prop('files')[0]);
+            }
+        }
+
+        function handleDrawings(file) {
+            $('#drawings-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><input type="hidden" name="drawings" value="{&quot;key&quot; : &quot;'+$('#inputDrawingsKey').val() +'&quot; , &quot;url&quot; : &quot;'+file+'&quot; }" /><p  class="align-self-center col-10" >' + $('#inputDrawingsKey').val() + ' - ' +file + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+            feather.replace();
+        }
+
+        function handleFieldPhotos(img) {
+            $('#field-photos-gallery').append('<div class="col-lg-3 col-md-4 col-6">\n' +
+                '<a href="javascript:void(0)" onclick="removeElement(this)"><span class="field-icon" data-feather="x" stroke="red" fill="red"></span></a>' +
+                '<div class="d-block mb-4 h-100">\n' +
+                '            <img class="img-fluid img-thumbnail" src="/projects-files/'+ img +'" alt="">\n' +
+                '          </div>\n' +
+                    '<input type="hidden" name="field_photos" value="'+ img +'"/>'+
+                '    </div>');
+            feather.replace();
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const socket = io("/project-uploads");
+
+
+            socket.on('progress', function (data) {
+                doProgress(data.percent, '#progress-'+data.id);
+            });
+
+            socket.on('success', function (data) {
+                doProgress(100, '#progress-'+data.id);
+                $('#input-'+data.id).val('');
+                if(data.id === 'field-photos'){
+                    handleFieldPhotos(data.file);
+                    return;
+                }
+
+                if(data.id === 'drawings'){
+                    handleDrawings(data.file);
+                    return;
+                }
+
+
+                $('#input-'+data.id+'-url').val(data.file);
+
+                $('#label-'+data.id).text(data.filename);
+            });
+
+            $('#input-assay').change(function () {
+                uploadFile('assay' , socket);
+            });
+
+            $('#input-planned-time-line').change(function () {
+                uploadFile('planned-time-line' , socket);
+            });
+            $('#input-current-time-line').change(function () {
+                uploadFile('current-time-line' , socket);
+            });
+
+            $('#input-comparison-time-line').change(function () {
+                uploadFile('comparison-time-line' , socket);
+            });
+
+            $('#input-field-photos').change(function () {
+                doProgress(0 , '#progress-field-photos');
+                $('#label-field-photos').text($('#input-field-photos').prop('files')[0].name);
+            });
+
+            $('#input-drawings').change(function () {
+                doProgress(0 , '#progress-drawings');
+                $('#label-drawings').text($('#input-drawings').prop('files')[0].name);
+            });
+
+            $('#add-field-photo').click(function () {
+                uploadFile('field-photos' , socket);
+            });
+
+            $('#add-drawing').click(function () {
+                uploadFile('drawings' , socket);
+            });
+
+            $('#getLocation').on('click', function () {
+                var url = $('#inputLocation').val();
+                var regex = new RegExp('@(.*),(.*),');
+                var lon_lat_match = url.match(regex);
+                var lon = lon_lat_match[1];
+                var lat = lon_lat_match[2];
+
+                $('#longitude').text('longitude : ' + lon);
+                $('#latitude').text('latitude : ' + lat);
+
+                $('#inputLat').val(lat);
+                $('#inputLon').val(lon);
+            });
+
+
+            $('#add-office-engineer').on('click', function () {
+                $('#office-engineers-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-2" src="/images/project.jpg"><input type="hidden" name="office_engineers" value="'+ $('#inputOfficeEngineers').children("option:selected").val() +'" /><p  class="align-self-center col-8" >' + $('#inputOfficeEngineers').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-field-engineer').on('click', function () {
+                $('#field-engineers-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-2" src="/images/project.jpg"><input type="hidden" name="field_engineers" value="'+ $('#inputFieldEngineers').children("option:selected").val() +'" /><p  class="align-self-center col-8" >' + $('#inputFieldEngineers').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-administrator').on('click', function () {
+                $('#administrators-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-1" src="/images/project.jpg"><input type="hidden" name="administrators" value="'+ $('#inputAdministrators').children("option:selected").val() +'" /><p  class="align-self-center col-8" >' + $('#inputAdministrators').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-accountant').on('click', function () {
+                $('#accountants-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-1" src="/images/project.jpg"><input type="hidden" name="accountants" value="'+ $('#inputAccountants').children("option:selected").val() +'" /><p  class="align-self-center col-8" >' + $('#inputAccountants').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-contractor').on('click', function () {
+                $('#contractors-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-2" src="/images/project.jpg"><input type="hidden" name="contractors" value="'+ $('#inputContractors').children("option:selected").val() +'" /><p  class="align-self-center col-8" >' + $('#inputContractors').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-supplier').on('click', function () {
+                $('#suppliers-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-2" src="/images/project.jpg"><input type="hidden" name="suppliers" value="'+ $('#inputSuppliers').children("option:selected").val() +'" /><p  class="align-self-center col-8" >' + $('#inputSuppliers').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-foreman').on('click', function () {
+                $('#foremen-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-2" src="/images/project.jpg"><input type="hidden" name="suppliers" value="' + $('#inputForemen').children("option:selected").val() + '" /><p  class="align-self-center col-8" >' + $('#inputForemen').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-supervisor').on('click', function () {
+                $('#supervisor-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-2" src="/images/project.jpg"><input type="hidden" name="supervisors" value="'+ $('#inputSupervisors').children("option:selected").val() +'" /><p  class="align-self-center col-8" >' + $('#inputSupervisors').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-2 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+            $('#add-item').on('click', function () {
+                $('#items-gallery').append('<div  class="align-middle align-self-center list-group-item list-group-item-action mt-1 row" style="margin-left: 0!important; margin-right: 0!important; display: flex!important;"><img class="img-fluid col-1" src="/images/project.jpg"><input type="hidden" name="items" value="{&quot;name&quot; : &quot;'+$('#inputItems').val() +'&quot; , &quot;contractor_id&quot; : &quot;'+$('#inputItemContractor').children("option:selected").val() +'&quot; }" /><p  class="align-self-center col-5" >' + $('#inputItems').val() + '</p><p  class="align-self-center col-5" >' + $('#inputItemContractor').children("option:selected").val() + '</p> <a style="margin: 0!important;" class="col-1 align-self-center" href="javascript:void(0)" onclick="removeElement(this)"><span data-feather="x" stroke="red" fill="red"></span></a> </div>');
+
+                feather.replace();
+            });
+
+
+        }, false);
+
+
+
+
+    div.text-start.col-lg-10
+        form(class="form-add-project" method="POST" action="/admin/projects/processing/add")
+            #error
+                if error
+                    p.text-danger #{error}
+            #sucess
+                if success
+                    div.alert.alert-success
+                        p.text-success project added successfully.
+
+            - var h1Classes = ['h3', 'mb-3', 'font-weight-normal']
+            h1(class=h1Classes) New Project
+            .form-row
+                .code.form-group.mt-3.col-6
+                    label(for="inputCode" class="control-label") Code
+                    input(type="number" name="code" id="inputCode" class="form-control" placeholder="Code"  autofocus)
+                .name.form-group.mt-3.col-6
+                    label(for="inputName" class="control-label") Name
+                    input(type="text" name="name" id="inputName" class='form-control' placeholder="Name" )
+                .owner.form-group.mt-3.col-6
+                    label(for="inputOwner" class="control-label") Owner
+                    input(type="text" name="owner" id="inputOwner" class='form-control' placeholder="Owner" )
+                .consultant.form-group.mt-3.col-6
+                    label(for="inputConsultant" class="control-label") Consultant
+                    input(type="text" name="consultant" id="inputConsultant" class='form-control' placeholder="Consultant" )
+                .contract-code.form-group.mt-3.col-6
+                    label(for="inputContractCode" class="control-label") Contract Code
+                    input(type="number" name="contract_code" id="inputContractCode" class='form-control' placeholder="Contract Code" )
+                .contract_value.form-group.mt-3.col-6
+                    label(for="inputContractValue" class="control-label") Contract value
+                    input(type="number" name="contract_value" id="inputContractValue" class='form-control' placeholder="Contract value" )
+                .receive_date.form-group.mt-3.col-6
+                    label(for="inputReceiveDate" class="control-label") Receive date
+                    input(type="date" name="receive_date" id="inputReceiveDate" class='form-control' placeholder="Receive date" )
+                .duration.form-group.mt-3.col-6
+                    label(for="inputDuration" class="control-label") Duration
+                    .input-group
+                        input(type="number" name="duration" id="inputDuration" class='form-control' placeholder="Duration" )
+                        .input-group-append
+                            .input-group-text month
+                .dead_line.form-group.mt-3.col-6
+                    label(for="inputDeadline" class="control-label") Deadline
+                    input(type="date" name="dead_line" id="inputDeadline" class='form-control' placeholder="Deadline" )
+                .general_contractor.form-group.mt-3.col-6
+                    label(for="inputGeneralContractor" class="control-label") General contractor
+                    input(type="text" name="general_contractor" id="inputGeneralContractor" class='form-control' placeholder="General contractor" )
+                .assay.form-group.mt-3.col-6
+                    label(for="input-assay" class="control-label") Assay
+                    .custom-file
+                        label(for="input-assay" class="custom-file-label" id="label-assay") upload assay file
+                        input(type="file" id="input-assay" class=['custom-file-input', 'form-control', 'mt-3'] placeholder="Assay")
+                        input(type="hidden" id="input-assay-url" name="assay")
+                        .progress(style="height: 1px;")
+                            #progress-assay.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+                .location.form-group.mt-3.col-6
+                    label(for="inputLocation" class="control-label") Location
+                    .input-group
+                        input(type="text" id="inputLocation" class='form-control' placeholder="Location")
+                        input(type="hidden" name="lat" id="inputLat" )
+                        input(type="hidden" name="lon" id="inputLon" )
+                        .input-group-append
+                            button.btn.btn-outline-secondary(type="button" id="getLocation") get
+                    small.form-text.text-muted#longitude longitude :
+                    small.form-text.text-muted#latitude latitude :
+                .planned_time_line.form-group.mt-3.col-6
+                    label(for="input-planned-time-line" class="control-label") Planned Time Line
+                    .custom-file
+                        label(for="input-planned-time-line" class="custom-file-label" id="label-planned-time-line") upload planned time line file
+                        input(type="file" id="input-planned-time-line" class=['custom-file-input', 'form-control', 'mt-3'] placeholder="planned time line file")
+                        input(type="hidden" id="input-planned-time-line-url" name="planned_time_line_url")
+                        .progress(style="height: 1px;")
+                            #progress-planned-time-line.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+
+                .current_time_line.form-group.mt-3.col-6
+                    label(for="input-current-time-line" class="control-label") Current Time Line
+                    .custom-file
+                        label(for="input-current-time-line" class="custom-file-label" id="label-current-time-line") upload current time line file
+                        input(type="file" id="input-current-time-line" class=['custom-file-input', 'form-control', 'mt-3'] placeholder="Current time line file")
+                        input(type="hidden" id="input-current-time-line-url" name="current_time_line_url")
+                        .progress(style="height: 1px;")
+                            #progress-current-time-line.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+
+                .comparison_time_line.form-group.mt-3.col-12
+                    label(for="input-comparison-time-line" class="control-label") Comparison Time Line
+                    .custom-file
+                        label(for="input-comparison-time-line" class="custom-file-label" id="label-comparison-time-line") upload comparison time line file
+                        input(type="file"  id="input-comparison-time-line" class=['custom-file-input', 'form-control', 'mt-3'] placeholder="comparison time line file")
+                        input(type="hidden" id="input-comparison-time-line-url" name="comparison_time_line_url")
+                        .progress(style="height: 1px;")
+                            #progress-comparison-time-line.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+                .field_photos.form-group.mt-3.col-12
+                    label(for="input-field-photos" class="control-label") Field Photos
+                    .input-group
+                        .custom-file
+                            input( type="file" class="custom-file-input" id="input-field-photos")
+                            label( id="label-field-photos" class="custom-file-label" for="input-field-photos") Choose field photo file
+                        .input-group-append
+                            button#add-field-photo(class=["btn", "btn-outline-secondary"] type="button") add Photo
+                    .progress.mt-1(style="height: 1px;")
+                        #progress-field-photos.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+                    #field-photos-gallery.row.text-center
+
+                .office_engineers.form-group.mt-3.col-6
+                    label(for="inputOfficeEngineers" class="control-label") Office Engineers
+                    .input-group
+                        select(id="inputOfficeEngineers" class=["form-control", "custom-select", "select2", "select2-6"])
+                            option select office engineer
+                            for office_engineer in employees
+                                - var photo = office_engineer.photo ? office_engineer.photo : 'employee.png';
+                                    option(data-img_src=`/images/${photo}` value=`${office_engineer.id}`) #{office_engineer.name}
+                        div(class="input-group-append")
+                            button#add-office-engineer(class=["btn", "btn-outline-secondary"] type="button") add office engineer
+                    #office-engineers-gallery.mb-1
+                .field_engineers.form-group.mt-3.col-6
+                    label(for="inputName" class="control-label") Field Engineers
+                    .input-group
+                        select(id="inputFieldEngineers" class=["form-control", "custom-select", "select2", "select2-6"])
+                            option select field engineer
+                            for field_engineer in employees
+                                - var photo = field_engineer.photo ? field_engineer.photo : 'employee.png';
+                                option(data-img_src=`/images/${photo}` value=`${field_engineer.id}`) #{field_engineer.name}
+                        div(class="input-group-append")
+                            button#add-field-engineer(class=["btn", "btn-outline-secondary"] type="button") add field engineer
+                    #field-engineers-gallery.mb-1
+                .administrators.form-group.mt-3.col-12
+                    label(for="inputName" class="control-label") Administrators
+                    .input-group
+                        select(id="inputAdministrators" class=["form-control", "custom-select", "select2"])
+                            option select administrator
+                            for administrator in employees
+                                - var photo = administrator.photo ? administrator.photo : 'employee.png';
+                                option(data-img_src=`/images/${photo}` value=`${administrator.id}`) #{administrator.name}
+                        div(class="input-group-append")
+                            button#add-administrator(class=["btn", "btn-outline-secondary"] type="button") add administrator
+                    #administrators-gallery.mb-1
+                .accountants.form-group.mt-3.col-12
+                    label(for="inputName" class="control-label") Accountants
+                    .input-group
+                        select(id="inputAccountants" class=["form-control", "custom-select", "select2"])
+                            option select accountant
+                            for accountant in employees
+                                - var photo = accountant.photo ? accountant.photo : 'employee.png';
+                                option(data-img_src=`/images/${photo}` value=`${accountant.id}`) #{accountant.name}
+                        div(class="input-group-append")
+                            button#add-accountant(class=["btn", "btn-outline-secondary"] type="button") add accountant
+                    #accountants-gallery.mb-1
+                .supervisors.form-group.mt-3.col-12
+                    label(for="inputName" class="control-label") Supervisors
+                    .input-group
+                        select(id="inputSupervisor" class=["form-control", "custom-select", "select2"])
+                            option select supervisor
+                            for supervisor in employees
+                                - var photo = supervisor.photo ? supervisor.photo : 'employee.png';
+                                option(data-img_src=`/images/${photo}` value=`${supervisor.id}`) #{supervisor.name}
+                        div(class="input-group-append")
+                            button#add-supervisor(class=["btn", "btn-outline-secondary"] type="button") add supervisor
+                    #supervisors-gallery.mb-1
+                .contractors.form-group.mt-3.col-6
+                    label(for="inputContractors" class="control-label") Contractors
+                    .input-group
+                        select(id="inputContractors" class=["form-control", "custom-select", "select2", "select2-6"])
+                            option select contractor
+                            for contractor in contractors
+                                - var photo = contractor.photo ? contractor.photo : 'contractor.png';
+                                option(data-img_src=`/images/${photo}` value=`${contractor.id}`) #{contractor.name}
+                        div(class="input-group-append")
+                            button#add-contractor(class=["btn", "btn-outline-secondary"] type="button") add contractor
+                    #contractors-gallery.mb-1
+                .suppliers.form-group.mt-3.col-6
+                    label(for="inputSuppliers" class="control-label") Suppliers
+                    .input-group
+                        select(id="inputSuppliers" class=["form-control", "custom-select", "select2", "select2-6"])
+                            option select supplier
+                            for supplier in suppliers
+                                - var photo = supplier.photo ? supplier.photo : 'supplier.png';
+                                option(data-img_src=`/images/${photo}` value=`${supplier.id}`) #{supplier.name}
+                        div(class="input-group-append")
+                            button#add-supplier(class=["btn", "btn-outline-secondary"] type="button") add supplier
+                    #suppliers-gallery.mb-1
+                .foreman.form-group.mt-3.col-8
+                    label(for="inputForemen" class="control-label") Foremen
+                    .input-group
+                            select(id="inputForemen" class=["form-control", "custom-select", "select2", "select2-6"])
+                                option select foreman
+                                for foreman in employees
+                                    - var photo = foreman.photo ? foreman.photo : 'employee.png';
+                                    option(data-img_src=`/images/${photo}` value=`${foreman.id}`) #{foreman.name}
+                            div(class="input-group-append")
+                                button#add-foreman(class=["btn", "btn-outline-secondary"] type="button") add foreman
+                    #foremen-gallery.mb-1
+                .workers_count.form-group.mt-3.col-4
+                    label(for="inputName" class="control-label") Worker Count
+                    input(type="text" name="workers_count" id="inputWorkerCount" class='form-control' placeholder="Worker count" )
+                .items.form-group.mt-3.col-12
+                    label(for="inputName" class="control-label") Items
+                    .input-group
+                        input(type="text" id="inputItems" class=['form-control'] placeholder="Items" )
+                        select(id="inputItemContractor" class=["form-control", "custom-select", "select2", "select2-6", 'w-25'])
+                            option select contractor
+                            for contractor in contractors
+                                - var photo = contractor.photo ? contractor.photo : 'contractor.png';
+                                option(data-img_src=`/images/${photo}` value=`${contractor.id}`) #{contractor.name}
+                        div(class="input-group-append")
+                            button#add-item(class=["btn", "btn-outline-secondary"] type="button") add item
+                    #items-gallery.mb-1
+                .drawings.form-group.mt-3.col-12
+                    label(for="input-drawings" class="control-label") Drawings
+                    .input-group
+                        input(type="text" id="inputDrawingsKey" class=['form-control'] placeholder="key" )
+                        .custom-file.col-6
+                            input( type="file" class="custom-file-input" id="input-drawings")
+                            label( id="label-drawings" class="custom-file-label" for="input-drawings") Choose drawing file
+                        .input-group-append
+                            button#add-drawing(class=["btn", "btn-outline-secondary"] type="button") add drawing
+                    .progress.mt-1(style="height: 1px;")
+                        #progress-drawings.progress-bar.bg-success(role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+                    #drawings-gallery.mb-1
+                .manager.form-group.mt-3.col-12
+                    label(for="inputManager" class="control-label") Manager
+                    .input-group
+                        select(id="inputManager" name="manager" class=["form-control", "custom-select", "select2"])
+                            option(value="null") select manager
+                            for manager in employees
+                                - var photo = manager.photo ? manager.photo : 'employee.png';
+                                option(data-img_src=`/images/${photo}` value=`${manager.id}`) #{manager.name}
+                .save
+                - var buttonClass=['btn', 'btn-lg', 'btn-primary', 'mt-3' ,  'btn-block'];
+                    button(class=buttonClass type="submit") save
+
+        #alertModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='alertModalLabel' aria-hidden='true')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        h5#alertModalLabel.modal-title Error !!
+                        button.close(type='button' data-dismiss='modal' aria-label='Close')
+                            span(aria-hidden='true') &times;
+                    .modal-body
+                        | please , choose project manager.
+                    .modal-footer
+                        button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+
+        - var pClasses=['mt-5', 'mb-3', 'text-muted'];
+            p(class=pClasses) © 2017-2018
+    script.
+        function custom_template(obj) {
+            var data = $(obj.element).data();
+            var text = $(obj.element).text();
+            if (data && data['img_src']) {
+                img_src = data['img_src'];
+                template = $("<div style='margin-right:0!important;margin-left: 0!important; ' class='row'><img class='col-1 img-fluid' src=\"" + img_src + "\" /><p style=\"font-weight: 700;font-size:14pt;text-align:center;\">" + text + "</p></div>");
+                return template;
+            }
+        }
+        var options = {
+            //'templateSelection': custom_template,
+            'templateResult': custom_template,
+        }
+        $('.select2').select2(options);
+
+        function custom_template6(obj) {
+            var data = $(obj.element).data();
+            var text = $(obj.element).text();
+            if (data && data['img_src']) {
+                img_src = data['img_src'];
+                template = $("<div style='margin-right:0!important;margin-left: 0!important; ' class='row'><img class='col-3 img-fluid' src=\"" + img_src + "\" /><p style=\"font-weight: 700;font-size:14pt;text-align:center;\">" + text + "</p></div>");
+                return template;
+            }
+        }
+        var options6 = {
+            //'templateSelection': custom_template,
+            'templateResult': custom_template6,
+        }
+        $('.select2-6').select2(options6);
+        //$('.select2-container--default .select2-selection--single').css({'height': '50px'});
+

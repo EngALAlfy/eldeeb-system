@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Admin panel
+    link(rel="stylesheet" href="/stylesheets/bootstrap.min.css" )
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+    script(src="/javascripts/jquery-3.4.1.min.js")
+    script(src="/javascripts/uuid.js")
+    script(src='/javascripts/feather.min.js')
+  body
+    block content
+  center#logo
+    p.mt-1.mb-2.text-muted
+      | Made with
+      span(class='mx-2' , data-feather='heart' , fill="red")
+      | by #[a(class='text-muted',href="http://alalfy.com") Alalfy]
+  script(src="/javascripts/jquery-3.4.1.min.js" )
+  script(src="/javascripts/popper.min.js")
+  script(src="/javascripts/bootstrap.min.js" )
+  script feather.replace()
